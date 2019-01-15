@@ -212,7 +212,7 @@ app.controller('resumeCtrl', function($scope, $document) {
     {
 			title: 'MyReads React',
 			image: './images/my-reads-screenshot.png',
-			url: './myreads',
+			url: '/myreads',
 			category: ['development'],
 		// next lines are to handle the pop-up modals
 			modalName: 'MyReadsModalCenter',
