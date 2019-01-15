@@ -43,8 +43,8 @@ ul {
 	-moz-transition: all 0.4s ease-in-out;
 	-o-transition: all 0.4s ease-in-out;
 	position: fixed;
-	bottom: 5px;
-	right: 5px;
+	bottom: 18px;
+	right: 18px;
 	opacity: 1;
 	cursor: pointer;
 }
