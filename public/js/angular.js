@@ -92,7 +92,7 @@ app.controller('resumeCtrl', function($scope, $document) {
 		},
 		{
 			schoolName: 'Horry-Georgetown Technical College',
-			schoolURL: '',
+			schoolURL: 'https://www.hgtc.edu',
 			course: 'Digital Arts',
 			date: 'January 2016 - January 2017',
 			courseInfo: 'After taking a few graphic design classes, I became familiar with programs that include Adobe Photoshop, Illustrator, InDesign, and Sketch. These courses lead to my interest in learning how to code.'
