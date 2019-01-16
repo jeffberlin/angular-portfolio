@@ -20,6 +20,15 @@
       video {
         height: 100vh;
       }
+      @media (max-width: 576px) {
+        video {
+          display: none;
+        }
+        h4 {
+          display: inline-block !important;
+          margin-top: 30vh;
+        }
+      }
     </style>
   </head>
   <body>
@@ -29,6 +38,8 @@
         <video style="width: 100%;" autoplay muted loop preload="auto" play-inline>
           <source src="images/myreads-recording.mp4" type="video/mp4">
         </video>
+        <h4 style="display: none;">Video not supported on mobile.</h4>
+        <p>Please visit <span style="color: #009688;">jeffberlindev.com/my-reads</span> on a desktop.</p>
       </div>
     </div>
 
