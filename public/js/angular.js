@@ -120,6 +120,24 @@ app.controller('resumeCtrl', function($scope, $document) {
 			modalViewType: 'Website'
     },
     {
+			title: 'JBR',
+			image: './images/jbrally-screenshot.jpg',
+			url: 'http://jbrally.com/',
+			category: ['development', 'design'],
+		// next lines are to handle the pop-up modals
+			modalName: 'jeffBerlinRallyModalCenter',
+		// Just add 'Title' to modalName
+			modalCenterTitle: 'jeffBerlinRallyModalCenterTitle',
+		// remove 'Center', add 'Long'
+			modalLongTitle: 'jeffBerlinRallyModalLongTitle',
+		// title to display in the modal
+			modalTitleName: 'Jeff Berlin Rally Website',
+		// body inside the modal
+			modalBody: 'This website is for Jeff Berlin Rally Team and provides media coverage for their events. It was built using WordPress, WordPress Plugins, and custom HTML and CSS.',
+		// handles the link description in modal
+			modalViewType: 'Website'
+		},
+    {
 			title: 'BMT Micro Customer Help',
 			image: './images/bmt-customer-help-screenshot.jpg',
 			url: 'https://help.bmtmicro.com/customers',
@@ -350,24 +368,6 @@ app.controller('resumeCtrl', function($scope, $document) {
 			modalTitleName: 'Wilmington Brewers Website',
 		// body inside the modal
 			modalBody: 'Are you a craft beer enthusiast? This website was originally created as a course project for my Udacity Frontend Web Development program, but I find that it comes in handy when you\'re just not quite sure where to grab some food or drinks (within the Wilmington, NC area). Built using HTML, CSS, Javascript, KnockoutJS, Google Maps API, and Foursquare API.',
-		// handles the link description in modal
-			modalViewType: 'Website'
-		},
-		{
-			title: 'JBR',
-			image: './images/jbrally_screenshot.png',
-			url: 'http://jbrally.com/',
-			category: ['development', 'design'],
-		// next lines are to handle the pop-up modals
-			modalName: 'jeffBerlinRallyModalCenter',
-		// Just add 'Title' to modalName
-			modalCenterTitle: 'jeffBerlinRallyModalCenterTitle',
-		// remove 'Center', add 'Long'
-			modalLongTitle: 'jeffBerlinRallyModalLongTitle',
-		// title to display in the modal
-			modalTitleName: 'Jeff Berlin Rally Website',
-		// body inside the modal
-			modalBody: 'This website is for Jeff Berlin Rally Team and provides media coverage for their events. It was built using WordPress, WordPress Plugins, and custom HTML and CSS.',
 		// handles the link description in modal
 			modalViewType: 'Website'
 		},
