@@ -81,7 +81,7 @@ app.controller('resumeCtrl', function($scope, $document) {
 			schoolURL: 'https://www.udacity.com/course/react-nanodegree--nd019',
 			course: 'React Development - Nanodegree',
 			date: 'June 2018 - October 2018',
-			courseInfo: 'Learning the in\'s and out\'s of the React framework and then we will be learning Redux and React Native through this course.'
+			courseInfo: 'Learning the in\'s and out\'s of the React, React Native, and Redux frameworks through this course. To successfully complete the course, we had to complete 3 total projects, using each framework.'
 		},
 		{
 			schoolName: 'Udacity',
