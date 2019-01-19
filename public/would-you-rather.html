@@ -20,13 +20,19 @@
       video {
         height: 100vh;
       }
+
+      .mobile-support {
+        display: none;
+      }
       @media (max-width: 576px) {
         video {
           display: none;
         }
         h4 {
-          display: inline-block !important;
           margin-top: 30vh;
+        }
+        .mobile-support {
+          display: inline-block !important;
         }
       }
     </style>
@@ -38,8 +44,8 @@
         <video style="width: 100%; margin-top: -3px;" autoplay="autoplay" muted loop plays-inline preload="auto">
           <source src="images/would-you-rather-recording.mp4" type="video/mp4">
         </video>
-        <h4 style="display: none;">Video not supported on mobile.</h4>
-        <p>Please visit <span style="color: #009688;">jeffberlindev.com/would-you-rather</span> on a desktop.</p>
+        <h4 class="mobile-support">Video not supported on mobile.</h4>
+        <p class="mobile-support">Please visit <span class="mobile-support" style="color: #009688;">jeffberlindev.com/would-you-rather</span> on a desktop.</p>
       </div>
     </div>
 
