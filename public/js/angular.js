@@ -41,7 +41,7 @@ app.controller('resumeCtrl', function($scope, $document) {
 			company: 'TRU Colors Brewing Co.',
 			companyURL: 'https://www.trucolors.co',
 			workLocation: 'Wilmington, NC',
-			jobDescription: 'A local startup that will ultimately be run and operated by active gang members - working together to end gang-on-gang violence in our area. My primary responsiblities were to create their company website, consult on ad design questions, and create their brochure to distribute to potential partners. The technology I used to handle the work consists of HTML, CSS, Bootstrap, Javascript, JQuery, Photoshop, InDesign, Illustrator, and Sketch.'
+			jobDescription: 'A local startup that will ultimately be run and operated by active gang members - working together to end gang-on-gang violence in our area. My primary responsibilities were to create their company website, consult on ad design questions, and create their brochure to distribute to potential partners. The technology I used to handle the work consists of HTML, CSS, Bootstrap, Javascript, JQuery, Photoshop, InDesign, Illustrator, and Sketch.'
 		},
 		{
 			jobTitle: 'Frontend Web Developer',
