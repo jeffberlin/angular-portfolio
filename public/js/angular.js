@@ -102,6 +102,24 @@ app.controller('resumeCtrl', function($scope, $document) {
 // Projects array to display images and info. Modal info is located in index.html
   $scope.projects = [
     {
+      title: 'DJ Straftanz flyer',
+      image: './images/flyer_400.jpg',
+      url: './images/flyer.pdf',
+      category: 'design',
+    // next lines are to handle the pop-up modals
+			modalName: 'flyerModalCenter',
+		// Just add 'Title' to modalName
+			modalCenterTitle: 'flyerModalCenterTitle',
+		// remove 'Center', add 'Long'
+			modalLongTitle: 'flyerModalLongTitle',
+		// title to display in the modal
+			modalTitleName: 'DJ Straftanz Event Flyer',
+		// body inside the modal
+			modalBody: 'Created this company brochure to provide additional information about TRU Colors Brewing. This was made using Adobe InDesign and Photoshop.',
+		// handles the link description in modal
+			modalViewType: 'PDF'
+    }
+    {
       title: 'BMT Micro Catalog',
       image: './images/bmt-catalog-screenshot.jpg',
       url: 'https://www.bmtmicro.com/bmtcatalog',
