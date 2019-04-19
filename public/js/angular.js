@@ -118,7 +118,7 @@ app.controller('resumeCtrl', function($scope, $document) {
 			modalBody: 'Created this company brochure to provide additional information about TRU Colors Brewing. This was made using Adobe InDesign and Photoshop.',
 		// handles the link description in modal
 			modalViewType: 'PDF'
-    }
+    },
     {
       title: 'BMT Micro Catalog',
       image: './images/bmt-catalog-screenshot.jpg',
