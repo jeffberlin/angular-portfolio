@@ -117,7 +117,7 @@ app.controller('resumeCtrl', function($scope, $document) {
 		// body inside the modal
 			modalBody: 'The event flyer for DJ Straftanz\'s \'May the Fourth\' show. This was created using Adobe Photoshop.',
 		// handles the link description in modal
-			modalViewType: 'Website'
+			modalViewType: 'Flyer'
     },
     {
       title: 'BMT Micro Catalog',
