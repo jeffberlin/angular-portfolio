@@ -104,7 +104,7 @@ app.controller('resumeCtrl', function($scope, $document) {
     {
       title: 'DJ Straftanz flyer',
       image: './images/flyer_400.jpg',
-      url: './images/flyer.pdf',
+      url: '/flyer.html',
       category: 'design',
     // next lines are to handle the pop-up modals
 			modalName: 'flyerModalCenter',
