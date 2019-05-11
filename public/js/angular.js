@@ -102,7 +102,7 @@ app.controller('resumeCtrl', function($scope, $document) {
 // Projects array to display images and info. Modal info is located in index.html
   $scope.projects = [
     {
-      title: 'DJ Straftanz flyer',
+      title: 'DJ Straftanz Flyer',
       image: './images/flyer_400.jpg',
       url: '/flyer',
       category: 'design',
