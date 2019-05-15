@@ -24,9 +24,10 @@ ul {
 }
 
 .download-btn, .contact-info li, .page-navigation, #main-menu li {
-	font-family: 'Sansita', sans-serif;
+	/* font-family: 'Sansita', sans-serif; */
+	font-family: 'Noto Sans', sans-serif;
 	color: #ffffff;
-	letter-spacing: .7px;
+	letter-spacing: .5px;
 }
 
 #topcontrol, .mobile-menu {
