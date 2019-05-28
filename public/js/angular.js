@@ -80,7 +80,7 @@ app.controller('resumeCtrl', function($scope, $document) {
       schoolName: 'Udacity',
       schoolURL: 'https://www.udacity.com/course/c-plus-plus-nanodegree--nd213',
       course: 'C++ - Nanodegree',
-      date: 'March 2018 - Present',
+      date: 'March 2019 - Present',
       courseInfo: 'Get hands-on experience by coding projects using C++, through in depth lessons on the programming language.'
     },
     {
