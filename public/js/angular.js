@@ -77,6 +77,13 @@ app.controller('resumeCtrl', function($scope, $document) {
 // Array for Education
 	$scope.education = [
     {
+      schoolName: 'Udacity',
+      schoolURL: 'https://www.udacity.com/course/c-plus-plus-nanodegree--nd213',
+      course: 'C++ - Nanodegree',
+      date: 'March 2018 - Present',
+      courseInfo: 'Get hands-on experience by coding projects using C++, through in depth lessons on the programming language.'
+    },
+    {
 			schoolName: 'Udacity',
 			schoolURL: 'https://www.udacity.com/course/react-nanodegree--nd019',
 			course: 'React Development - Nanodegree',
