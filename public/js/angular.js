@@ -109,16 +109,34 @@ app.controller('resumeCtrl', function($scope, $document) {
 // Projects array to display images and info. Modal info is located in index.html
   $scope.projects = [
     {
-      title: 'DJ Straftanz Flyer',
-      image: './images/flyer_400.jpg',
-      url: '/flyer',
+      title: 'Midsummer Night Flyer',
+      image: './images/midsummer-night-flyer_400.jpg',
+      url: '/midsummer-night-flyer',
       category: 'design',
     // next lines are to handle the pop-up modals
-			modalName: 'flyerModalCenter',
+			modalName: 'midsummerNightFlyerModalCenter',
 		// Just add 'Title' to modalName
-			modalCenterTitle: 'flyerModalCenterTitle',
+			modalCenterTitle: 'midsummerNightFlyerModalCenterTitle',
 		// remove 'Center', add 'Long'
-			modalLongTitle: 'flyerModalLongTitle',
+			modalLongTitle: 'midsummerNightFlyerModalLongTitle',
+		// title to display in the modal
+			modalTitleName: 'DJ Straftanz Event Flyer',
+		// body inside the modal
+			modalBody: 'The event flyer for DJ Straftanz\'s \'May the Fourth\' show. This was created using Adobe Photoshop.',
+		// handles the link description in modal
+			modalViewType: 'Flyer'
+    },
+    {
+      title: 'May the Fourth Flyer',
+      image: './images/may-4th-flyer_400.jpg',
+      url: '/may-4th-flyer',
+      category: 'design',
+    // next lines are to handle the pop-up modals
+			modalName: 'mayFourthFlyerModalCenter',
+		// Just add 'Title' to modalName
+			modalCenterTitle: 'mayFourthFlyerModalCenterTitle',
+		// remove 'Center', add 'Long'
+			modalLongTitle: 'mayFourthFlyerModalLongTitle',
 		// title to display in the modal
 			modalTitleName: 'DJ Straftanz Event Flyer',
 		// body inside the modal

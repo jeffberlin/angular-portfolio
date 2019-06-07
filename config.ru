@@ -41,7 +41,7 @@ map "/my-reads" do
   }
 end
 
-map "/flyer" do
+map "/may-4th-flyer" do
   run lambda { |env|
     [
       200,
@@ -49,7 +49,20 @@ map "/flyer" do
         'Content-Type' => 'text/html',
         'Cache-Control' => 'public, max-age=86400'
       },
-      File.open('public/flyer.html', File::RDONLY)
+      File.open('public/may-4th-flyer.html', File::RDONLY)
+    ]
+  }
+end
+
+map "/midsummer-night-flyer" do
+  run lambda { |env|
+    [
+      200,
+      {
+        'Content-Type' => 'text/html',
+        'Cache-Control' => 'public, max-age=86400'
+      },
+      File.open('public/midsummer-night-flyer.html', File::RDONLY)
     ]
   }
 end
