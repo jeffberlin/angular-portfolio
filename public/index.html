@@ -1,6 +1,6 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
       "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<html lang="en">
   <head profile="http://www.w3.org/TR/html4/strict.dtd">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -429,25 +429,5 @@
     <!-- <script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js/dist/web3.min.js"></script> -->
     <!-- GOOGLE MAP -->
     <!-- <script src="https://maps.googleapis.com/maps/api/js?libraries=places,geometry&key=AIzaSyBBm40aIp8sWMP6uQviU7sUejki2GXiwVc&v=3&callback=initMap" onerror="googleError()" async defer></script> -->
-    <script type="text/javascript">
-      $(window).load function() {
-        web3.eth.getAccounts(function(err,accs) {
-          if (err != null) {
-            alert("There was an error fetching your accounts.");
-            return;
-          }
-
-          if (accs.length == 0) {
-            alert("Couldn't get any accounts! Make sure your Ethereum client is configured correctly.");
-            return;
-          }
-
-          accounts = accs;
-          account = accounts[0];
-
-          refreshBalance();
-        });
-      }
-    </script>
   </body>
 </html>
