@@ -81,7 +81,7 @@ app.controller('resumeCtrl', function($scope, $document) {
       schoolURL: 'https://www.udacity.com/course/c-plus-plus-nanodegree--nd213',
       course: 'C++ - Nanodegree',
       date: 'March 2019 - Present',
-      courseInfo: 'Get hands-on experience by coding projects using C++, through in depth lessons on the programming language.'
+      courseInfo: 'Learning to build a route planner using OpenStreetMap data, write a process monitor for your computer, and implement your own smart pointers. Finally, showcasing all of the newfound skills by building a multithreaded traffic simulator and coding a personal C++ application.'
     },
     {
 			schoolName: 'Udacity',
