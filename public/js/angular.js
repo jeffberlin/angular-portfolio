@@ -218,7 +218,7 @@ app.controller('resumeCtrl', function($scope, $document) {
 		},
     {
 			title: 'Would You Rather',
-			image: './images/would-you-rather-screenshot',
+			image: './images/would-you-rather-screenshot.png',
 			url: '/would-you-rather',
 			category: ['development', 'design'],
 		// next lines are to handle the pop-up modals
