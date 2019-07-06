@@ -36,6 +36,14 @@
     <link href="css/responsive.css" rel="stylesheet">
     <!-- Angular JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="https://raw.githubusercontent.com/ethereum/web3.js/0.20.7/dist/web3.min.js"></script>
+    <script type="text/javascript">
+      if(typeof window.web3 !== "undefined" && typeof window.web3.currentProvider !== "undefined") {
+        var web3 = new Web3(window.web3.currentProvider);
+      } else {
+        var web3 = new Web3();
+      }
+    </script>
 
   </head>
   <body>
