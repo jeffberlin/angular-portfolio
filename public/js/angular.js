@@ -12,7 +12,7 @@ app.controller('resumeCtrl', function($scope, $document) {
 
 // Array for development skills
     $scope.developmentSkills = [
-    	'HTML', 'CSS', 'Bootstrap', 'Foundation', 'Javascript', 'JQuery', 'KnockoutJS', 'React', 'React-Native', 'Redux', 'AngularJS', 'PHP', 'JSON', 'AJAX', 'Jasmine', 'Python', 'Analytics', 'SQL', 'Postgres', 'GitHub', 'WordPress', 'Open Graph', 'RWD'
+    	'HTML', 'CSS', 'Bootstrap', 'Foundation', 'Javascript', 'JQuery', 'KnockoutJS', 'React', 'React-Native', 'Redux', 'AngularJS', 'PHP', 'JSON', 'AJAX', 'Jasmine', 'Python', 'C++', 'SQL', 'Postgres', 'GitHub', 'WordPress', 'Open Graph', 'RWD'
     ];
 
 // Array for design skills
@@ -22,7 +22,7 @@ app.controller('resumeCtrl', function($scope, $document) {
 
 // Array for design skills
     $scope.otherSkills = [
-    	'Slack', 'MS Office', 'Automotive', 'Logistics',
+    	'Slack', 'MS Office', 'Automotive', 'Logistics', 'Analytics'
     ];
 
 // Array for Work Experience
