@@ -66,3 +66,16 @@ map "/midsummer-night-flyer" do
     ]
   }
 end
+
+map "/oh-my-goth-flyer" do
+  run lambda { |env|
+    [
+      200,
+      {
+        'Content-Type' => 'text/html',
+        'Cache-Control' => 'public, max-age=86400'
+      },
+      File.open('public/oh-my-goth-flyer.html', File::RDONLY)
+    ]
+  }
+end
