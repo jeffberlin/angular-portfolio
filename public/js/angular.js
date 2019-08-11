@@ -109,6 +109,24 @@ app.controller('resumeCtrl', function($scope, $document) {
 // Projects array to display images and info. Modal info is located in index.html
   $scope.projects = [
     {
+      title: 'Oh My Goth Flyer',
+      image: './images/oh-my-goth-flyer_400.jpg',
+      url: '/oh-my-goth-flyer',
+      category: 'design',
+    // next lines are to handle the pop-up modals
+			modalName: 'ohMyGothFlyerModalCenter',
+		// Just add 'Title' to modalName
+			modalCenterTitle: 'ohMyGothFlyerModalCenterTitle',
+		// remove 'Center', add 'Long'
+			modalLongTitle: 'ohMyGothFlyerModalLongTitle',
+		// title to display in the modal
+			modalTitleName: 'DJ Straftanz Event Flyer',
+		// body inside the modal
+			modalBody: 'The event flyer for DJ Straftanz\'s \'Oh My Goth\' show. This was created using Adobe Photoshop.',
+		// handles the link description in modal
+			modalViewType: 'Full-Size Flyer'
+    },
+    {
       title: 'Midsummer Night Flyer',
       image: './images/midsummer-night-flyer_400.jpg',
       url: '/midsummer-night-flyer',

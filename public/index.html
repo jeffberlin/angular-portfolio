@@ -82,20 +82,47 @@
             <ul class="contact-info">
 
               <li class="email">
-                <a href="mailto:jeff@jbrally.com" alt="email" title="E-mail me"><span class="fa fa-envelope"></span>{{email}}</a>
+                <a href="mailto:jeff@jbrally.com" alt="email" title="E-mail me"><span class="fa fa-envelope"></span>
+                  {{email}}
+                </a>
               </li>
 
               <li class="phone">
-                <a href="tel:1-302-463-5129" alt="Phone number" title="Call me"><span class="fa fa-phone"></span>{{phone}}</a>
+                <a href="tel:1-302-463-5129" alt="Phone number" title="Call me"><span class="fa fa-phone"></span>
+                  {{phone}}
+                </a>
               </li>
 
               <li class="location">
-                <a href="https://www.google.com/maps/place/Wilmington,+NC/@34.2070324,-78.4329738,239207m/data=!3m1!1e3!4m5!3m4!1s0x89a9f5a20debaed5:0x5e66493884093032!8m2!3d34.2103894!4d-77.8868117?hl=en" target="_blank" alt="Location" title="View on map"><span class="fa fa-map-marker"></span>{{location}}</a>
+                <a href="https://www.google.com/maps/place/Wilmington,+NC/@34.2068977,-78.1523955,119498m/data=!3m1!1e3!4m5!3m4!1s0x89a9f5a20debaed5:0x5e66493884093032!8m2!3d34.2103894!4d-77.8868117?hl=en" target="_blank" title="View on a map"><span class="fa fa-map-marker"></span>
+                  {{location}}
+                </a>
               </li>
+
+              <!-- <li class="location">
+                <a href="" target="_blank" alt="Location" title="View on map" data-toggle="modal" data-target="#locationModal"><span class="fa fa-map-marker"></span>{{location}}</a>
+              </li> -->
 
             </ul>
           </div>
         </div>
+
+        <!-- Modal -->
+        <!-- <div class="modal fade" id="locationModal" tabindex="-1" role="dialog" aria-labelledby="locationModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalCenterTitle"></h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <iframe src="https://www.google.com/maps/place/Wilmington,+NC/@34.2070324,-78.4329738,239207m/data=!3m1!1e3!4m5!3m4!1s0x89a9f5a20debaed5:0x5e66493884093032!8m2!3d34.2103894!4d-77.8868117?hl=en" width="" height=""></iframe>
+              </div>
+            </div>
+          </div>
+        </div> -->
 
         <!-- Mobile menu -->
         <div id="navigation">
@@ -292,6 +319,6 @@
     <!-- Load Angular JS file -->
     <script src="js/angular.js"></script>
     <!-- GOOGLE MAP -->
-    <!-- <script src="https://maps.googleapis.com/maps/api/js?libraries=places,geometry&key=AIzaSyBBm40aIp8sWMP6uQviU7sUejki2GXiwVc&v=3&callback=initMap" onerror="googleError()" async defer></script> -->
+    {/* <script src="https://maps.googleapis.com/maps/api/js?libraries=places,geometry&key=AIzaSyBBm40aIp8sWMP6uQviU7sUejki2GXiwVc&v=3&callback=initMap" onerror="googleError()" async defer></script> */}
   </body>
 </html>
