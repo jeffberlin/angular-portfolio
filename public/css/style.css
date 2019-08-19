@@ -40,9 +40,6 @@ ul {
 	border-radius: 50%;
 	box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3);
 	background-clip: padding-box;
-	-webkit-transition: all 0.4s ease-in-out;
-	-moz-transition: all 0.4s ease-in-out;
-	-o-transition: all 0.4s ease-in-out;
 	position: fixed;
 	bottom: 18px;
 	right: 18px;
@@ -50,9 +47,19 @@ ul {
 	cursor: pointer;
 }
 
+#topcontrol {
+	animation: display 0.5s;
+	-webkit-animation: display 0.5s;
+	-moz-animation: display 0.5s;
+}
+
 .mobile-menu {
 	top: 10px;
 	right: 10px;
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
 }
 
 #topcontrol .fa-angle-up {
