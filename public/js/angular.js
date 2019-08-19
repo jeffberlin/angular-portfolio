@@ -2,28 +2,28 @@ var app = angular.module('resume', []);
 
 app.controller('resumeCtrl', function($scope, $document) {
     //$scope.myName = "Jeff" + " " + "Berlin";
-    $scope.myName = function() {
-    	return "Jeff" + " " + "Berlin"
-    };
-    $scope.headLine = "Web Developer";
-    $scope.email = "jeff@jbrally.com";
-    $scope.phone = "(302) 463-5129";
-    $scope.location = "Wilmington, NC";
+  $scope.myName = function() {
+  	return "Jeff" + " " + "Berlin"
+  };
+  $scope.headLine = "Web Developer";
+  $scope.email = "jeff@jbrally.com";
+  $scope.phone = "(302) 463-5129";
+  $scope.location = "Wilmington, NC";
 
 // Array for development skills
-    $scope.developmentSkills = [
-    	'HTML', 'CSS', 'Bootstrap', 'Foundation', 'Javascript', 'JQuery', 'KnockoutJS', 'React', 'React-Native', 'Redux', 'AngularJS', 'PHP', 'JSON', 'AJAX', 'Jasmine', 'Python', 'C++', 'SQL', 'Postgres', 'GitHub', 'WordPress', 'Open Graph', 'RWD'
-    ];
+  $scope.developmentSkills = [
+  	'HTML', 'CSS', 'Bootstrap', 'Foundation', 'Javascript', 'JQuery', 'KnockoutJS', 'React', 'React-Native', 'Redux', 'AngularJS', 'PHP', 'JSON', 'AJAX', 'Jasmine', 'Python', 'C++', 'SQL', 'Postgres', 'GitHub', 'WordPress', 'Open Graph', 'RWD'
+  ];
 
 // Array for design skills
-    $scope.designSkills = [
-    	'Photoshop', 'Illustrator', 'InDesign', 'XD', 'Sketch'
-    ];
+  $scope.designSkills = [
+  	'Photoshop', 'Illustrator', 'InDesign', 'XD', 'Sketch'
+  ];
 
 // Array for design skills
-    $scope.otherSkills = [
-    	'Slack', 'MS Office', 'Automotive', 'Logistics', 'Analytics'
-    ];
+  $scope.otherSkills = [
+  	'Slack', 'MS Office', 'Automotive', 'Logistics', 'Analytics'
+  ];
 
 // Array for Work Experience
 	$scope.workExperience = [
@@ -572,7 +572,29 @@ app.controller('resumeCtrl', function($scope, $document) {
 
 });
 
+// Displays loading spinner
+var myVar;
+
+function loadingFunc() {
+  myVar = setTimeout(showPage, 3000);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("mainDiv").style.display = "block";
+}
+
 /* JQuery code for the smooth scrolling on nav item clicks */
+
+// Show the scrollTop button when user scrolls down page, else hide
+$(document).scroll(function() {
+	var y = $(this).scrollTop();
+	if (y >= 75) {
+		$('#topcontrol').fadeIn();
+	} else {
+		$('#topcontrol').fadeOut();
+	}
+});
 
 $("#topcontrol").click(function() {
 	$('html, body').animate({
