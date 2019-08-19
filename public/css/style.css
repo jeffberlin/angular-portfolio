@@ -422,6 +422,12 @@ ul {
   animation: spin 2s linear infinite;
 }
 
+/* #loading-text {
+	margin-top: 2rem;
+	font-family: 'Source Sans Pro', sans-serif;
+	letter-spacing: .5px;
+} */
+
 @-webkit-keyframes spin {
   0% { -webkit-transform: rotate(0deg); }
   100% { -webkit-transform: rotate(360deg); }
@@ -433,7 +439,7 @@ ul {
 }
 
 /* Add animation to "page content" */
-.animate-bottom {
+/* .animate-bottom {
   position: relative;
   -webkit-animation-name: animatebottom;
   -webkit-animation-duration: 1s ease;
@@ -449,9 +455,8 @@ ul {
 @keyframes animatebottom {
   from{ bottom:-100px; opacity:0 }
   to{ bottom:0; opacity:1 }
-}
+} */
 
-#myDiv {
+#mainDiv {
   display: none;
-  text-align: center;
 }

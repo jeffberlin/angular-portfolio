@@ -30,6 +30,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- GOOGLE FONTS -->
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Sansita|Merriweather+Sans:300i,400i|Source+Sans+Progress|Kavivanar|IBM+Plex+Sans+Condensed|Noto+Sans|Montserrat:300,400,500,600,700" rel="stylesheet">
+    <!-- Load Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <!-- Load CSS file -->
     <link href="css/style.css" rel="stylesheet">
     <!-- Load Responsive CSS file -->
@@ -45,16 +47,17 @@
 
       function showPage() {
         document.getElementById("loader").style.display = "none";
-        document.getElementById("myDiv").style.display = "block";
+        document.getElementById("mainDiv").style.display = "block";
       }
     </script>
 
   </head>
-  <body onload="loadingFunc()">
+  <body onload="loadingFunc()" style="margin: 0;">
+
+    <!-- <h2 id="loading-text" class="text-center">Loading cool stuff!</h2> -->
     <div id="loader" class="text-center"></div>
 
-
-    <div ng-app="resume" ng-controller="resumeCtrl" style="display: none;" id="myDiv" class="animate-bottom">
+    <div ng-app="resume" ng-controller="resumeCtrl" style="display: none;" id="mainDiv" class="animated fadeInUpBig">
       <header class="header-info container-fluid" id="top-page">
         <div class="row justify-content-between header">
           <div class="media-icons col-lg-4 col-md-4 col-xs-12 text-center">
