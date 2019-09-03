@@ -109,6 +109,24 @@ app.controller('resumeCtrl', function($scope, $document) {
 // Projects array to display images and info. Modal info is located in index.html
   $scope.projects = [
     {
+      title: 'Gothic Industrial Madness',
+      image: './images/gothic-industrial-madness-flyer_400.jpg',
+      url: '/gothic-industrial-madness-flyer',
+      category: 'design',
+    // next lines are to handle the pop-up modals
+			modalName: 'gothicIndustrialMadnessFlyerModalCenter',
+		// Just add 'Title' to modalName
+			modalCenterTitle: 'gothicIndustrialMadnessFlyerModalCenterTitle',
+		// remove 'Center', add 'Long'
+			modalLongTitle: 'gothicIndustrialMadnessFlyerModalLongTitle',
+		// title to display in the modal
+			modalTitleName: 'DJ Straftanz Event Flyer',
+		// body inside the modal
+			modalBody: 'The event flyer for DJ Straftanz\'s \'Gothic Industrial Madness\' show. This was created using Adobe Photoshop.',
+		// handles the link description in modal
+			modalViewType: 'Full-Size Flyer'
+    },
+    {
       title: 'Oh My Goth Flyer',
       image: './images/oh-my-goth-flyer_400.jpg',
       url: '/oh-my-goth-flyer',
@@ -574,12 +592,10 @@ app.controller('resumeCtrl', function($scope, $document) {
 
 // Displays loading spinner
 var myVar;
-
-function loadingFunc() {
+var loadingFunc = () => {
   myVar = setTimeout(showPage, 3000);
 }
-
-function showPage() {
+var showPage = () => {
   document.getElementById("loader").style.display = "none";
   document.getElementById("mainDiv").style.display = "block";
 }
