@@ -109,6 +109,24 @@ app.controller('resumeCtrl', function($scope, $document) {
 // Projects array to display images and info. Modal info is located in index.html
   $scope.projects = [
     {
+      title: 'BMT Micro Blog',
+      image: './images/bmt-micro-blog-screenshot.jpg',
+      url: 'https://blog.bmtmicro.com',
+      category: ['development', 'design'],
+    // next lines are to handle the pop-up modals
+			modalName: 'BmtBlogModalCenter',
+		// Just add 'Title' to modalName
+			modalCenterTitle: 'BmtBlogModalCenterTitle',
+		// remove 'Center', add 'Long'
+			modalLongTitle: 'BmtBlogModalLongTitle',
+		// title to display in the modal
+			modalTitleName: 'BMT Micro Blog',
+		// body inside the modal
+			modalBody: 'A redesigned blog webpage for BMT Micro, Inc. This site was created using WordPress, HTML, CSS, JavaScript, and JQuery.',
+		// handles the link description in modal
+			modalViewType: 'Website'
+    },
+    {
       title: 'Gothic Industrial Madness',
       image: './images/gothic-industrial-madness-flyer_400.jpg',
       url: '/gothic-industrial-madness-flyer',
