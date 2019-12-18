@@ -12,7 +12,7 @@ app.controller('resumeCtrl', function($scope, $document) {
 
 // Array for development skills
   $scope.developmentSkills = [
-  	'HTML', 'CSS', 'Bootstrap', 'Foundation', 'Javascript', 'JQuery', 'KnockoutJS', 'React', 'React-Native', 'Redux', 'AngularJS', 'PHP', 'JSON', 'AJAX', 'Jasmine', 'Python', 'C++', 'SQL', 'Postgres', 'GitHub', 'WordPress', 'Open Graph', 'RWD'
+  	'HTML', 'CSS', 'Bootstrap', 'Foundation', 'Javascript', 'JQuery', 'KnockoutJS', 'React', 'React-Native', 'Redux', 'AngularJS', 'PHP', 'JSON', 'AJAX', 'Jasmine', 'Python', 'C++', 'SQL', 'Postgres', 'GitHub', 'WordPress', 'Google Maps', 'Open Graph', 'RWD'
   ];
 
 // Array for design skills
