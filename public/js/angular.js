@@ -44,7 +44,7 @@ app.controller('resumeCtrl', function($scope, $document) {
 			jobDescription: 'A local startup that will ultimately be run and operated by active gang members - working together to end gang-on-gang violence in our area. My primary responsibilities were to create their company website, consult on ad design questions, and create their brochure to distribute to potential partners. The technology I used to handle the work consists of HTML, CSS, Bootstrap, Javascript, JQuery, Photoshop, InDesign, Illustrator, and Sketch.'
 		},
 		{
-			jobTitle: 'Frontend Web Developer',
+			jobTitle: 'Front End Web Developer',
 			workDate: 'January 2017 - December 2017',
 			company: 'JOMO, Inc.',
 			companyURL: 'https://jeffberlin.github.io/JOMO_website/index.html',
@@ -93,9 +93,9 @@ app.controller('resumeCtrl', function($scope, $document) {
 		{
 			schoolName: 'Udacity',
 			schoolURL: 'https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001',
-			course: 'Front-end Web Development - Nanodegree',
+			course: 'Front End Web Development - Nanodegree',
 			date: 'August 2016 - March 2017',
-			courseInfo: 'Through this Front-end Developer program, I learned how to become proficient using HTML, CSS, and Javascript. Some of the tools, skills, and languages I had to use in order to properly complete the course projects were: DOM manipulation, browser leveraging, Knockoutjs, Google Maps API, Pagespeed insights, responsive web design, and Jasmine Unit Testing.'
+			courseInfo: 'Through this Front End Developer program, I learned how to become proficient using HTML, CSS, and Javascript. Some of the tools, skills, and languages I had to use in order to properly complete the course projects were: DOM manipulation, browser leveraging, Knockoutjs, Google Maps API, Pagespeed insights, responsive web design, and Jasmine Unit Testing.'
 		},
 		{
 			schoolName: 'Horry-Georgetown Technical College',
@@ -464,7 +464,7 @@ app.controller('resumeCtrl', function($scope, $document) {
 		// title to display in the modal
 			modalTitleName: 'Wilmington Brewers Website',
 		// body inside the modal
-			modalBody: 'Are you a craft beer enthusiast? This website was originally created as a course project for my Udacity Frontend Web Development program, but I find that it comes in handy when you\'re just not quite sure where to grab some food or drinks (within the Wilmington, NC area). Built using HTML, CSS, Javascript, KnockoutJS, Google Maps API, and Foursquare API.',
+			modalBody: 'Are you a craft beer enthusiast? This website was originally created as a course project for my Udacity Front End Web Development program, but I find that it comes in handy when you\'re just not quite sure where to grab some food or drinks (within the Wilmington, NC area). Built using HTML, CSS, Javascript, KnockoutJS, Google Maps API, and Foursquare API.',
 		// handles the link description in modal
 			modalViewType: 'Website'
 		},
