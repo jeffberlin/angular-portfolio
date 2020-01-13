@@ -109,6 +109,24 @@ app.controller('resumeCtrl', function($scope, $document) {
 // Projects array to display images and info. Modal info is located in index.html
   $scope.projects = [
     {
+      title: 'Goth Night Christmas Flyer',
+      image: './images/goth-night-christmas-flyer_400.jpg',
+      url: '/goth-night-before-christmas-flyer',
+      category: 'design',
+    // next lines are to handle the pop-up modals
+      modalName: 'gothChristmasModalCenter',
+    // Just add 'Title' to modalName
+      modalCenterTitle: 'gothChristmasModalCenterTitle',
+    // remove 'Center', add 'Long'
+      modalLongTitle: 'gothChristmasModalLongTitle',
+    // title to display in the modal
+      modalTitleName: 'Goth Night Before Christmas Flyer',
+    // body inside the modal
+      modalBody: 'The event flyer for DJ Straftanz\'s \'Goth Night Before Christmas\' show. This was created using Adobe Photoshop.',
+    // handles the link description in modal
+      modalViewType: 'Full-Size Flyer'
+    },
+    {
       title: 'SP the MC Birthday Flyer',
       image: './images/sp-30th-400.jpg',
       url: '/sp-birthday-flyer',
