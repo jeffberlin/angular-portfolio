@@ -144,3 +144,16 @@ map "/track-and-rally-logo" do
     ]
   }
 end
+
+map "/goth-industrial-night-flyer" do
+  run lambda { |env|
+    [
+      200,
+      {
+        'Content-Type' => 'text/html',
+        'Cache-Control' => 'public, max-age=86400'
+      },
+      File.open('public/goth-industrial-night-flyer.html')
+    ]
+  }
+end

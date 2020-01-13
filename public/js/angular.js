@@ -109,6 +109,24 @@ app.controller('resumeCtrl', function($scope, $document) {
 // Projects array to display images and info. Modal info is located in index.html
   $scope.projects = [
     {
+      title: 'Goth Industrial Night Flyer',
+      image: './images/goth-industrial-night-flyer_400.jpg',
+      url: '/goth-industrial-night-flyer',
+      category: 'design',
+    // next lines are to handle the pop-up modals
+      modalName: 'gothIndustrialNightModalCenter',
+    // Just add 'Title' to modalName
+      modalCenterTitle: 'gothIndustrialNightModalCenterTitle',
+    // remove 'Center', add 'Long'
+      modalLongTitle: 'gothIndustrialNightModalLongTitle',
+    // title to display in the modal
+      modalTitleName: 'Goth Industrial Night Flyer',
+    // body inside the modal
+      modalBody: 'The event flyer for DJ Straftanz\'s \'Goth Industrial Night\' show. This was created using Adobe Photoshop.',
+    // handles the link description in modal
+      modalViewType: 'Full-Size Flyer'
+    },
+    {
       title: 'Back To The 80\'s Flyer',
       image: './images/back-to-80s-flyer_400.jpg',
       url: '/back-to-80s-flyer',
