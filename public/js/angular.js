@@ -158,7 +158,7 @@ app.controller('resumeCtrl', function($scope, $document) {
     // title to display in the modal
       modalTitleName: 'Track and Rally Logo',
     // body inside the modal
-      modalBody: 'A logo created for Track and Rally.',
+      modalBody: 'A logo created for Track and Rally that was built with Adobe Illustrator and Photoshop. The website is coming soon!',
     // handles the link description in modal
       modalViewType: 'Image'
     },
