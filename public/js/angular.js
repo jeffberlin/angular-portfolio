@@ -127,6 +127,24 @@ app.controller('resumeCtrl', function($scope, $document) {
       modalViewType: 'Full-Size Flyer'
     },
     {
+      title: 'Track and Rally Logo',
+      image: './images/track-and-rally-logo_400.jpg',
+      url: '/track-and-rally-logo',
+      category: 'design',
+    // next lines are to handle the pop-up modals
+      modalName: 'trackAndRallyLogoModalCenter',
+    // Just add 'Title' to modalName
+      modalCenterTitle: 'trackAndRallyLogoModalCenterTitle',
+    // remove 'Center', add 'Long'
+      modalLongTitle: 'trackAndRallyLogoModalLongTitle',
+    // title to display in the modal
+      modalTitleName: 'Track and Rally Logo',
+    // body inside the modal
+      modalBody: 'A logo created for Track and Rally.',
+    // handles the link description in modal
+      modalViewType: 'Image'
+    },
+    {
       title: 'Goth Night Christmas Flyer',
       image: './images/goth-night-christmas-flyer_400.jpg',
       url: '/goth-night-before-christmas-flyer',

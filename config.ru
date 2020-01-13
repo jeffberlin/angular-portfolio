@@ -131,3 +131,16 @@ map "/back-to-80s-flyer" do
     ]
   }
 end
+
+map "/track-and-rally-logo" do
+  run lambda { |env|
+    [
+      200,
+      {
+        'Content-Type' => 'text/html',
+        'Cache-Control' => 'public, max-age=86400'
+      },
+      File.open('public/track-and-rally-logo.html')
+    ]
+  }
+end
