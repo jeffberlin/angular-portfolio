@@ -498,7 +498,7 @@ app.controller('resumeCtrl', function($scope, $document) {
 		// remove 'Center', add 'Long'
 			modalLongTitle: 'wilmBrewModalLongTitle',
 		// title to display in the modal
-			modalTitleName: 'Wilmington Brewers Website',
+			modalTitleName: 'Wilmington Breweries Website (coming soon)',
 		// body inside the modal
 			modalBody: 'Are you a craft beer enthusiast? This website was originally created as a course project for my Udacity Front End Web Development program, but I find that it comes in handy when you\'re just not quite sure where to grab some food or drinks (within the Wilmington, NC area). Built using HTML, CSS, Javascript, KnockoutJS, Google Maps API, and Foursquare API.',
 		// handles the link description in modal
