@@ -118,3 +118,16 @@ map "/goth-night-before-christmas-flyer" do
     ]
   }
 end
+
+map "/back-to-80s-flyer" do
+  run lambda { |env|
+    [
+      200,
+      {
+        'Content-Type' => 'text/html',
+        'Cache-Control' => 'public, max-age=86400'
+      },
+      File.open('public/back-to-80s-flyer.html')
+    ]
+  }
+end
