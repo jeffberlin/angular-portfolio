@@ -1,5 +1,8 @@
+/* colors: #066684 (teal), #f5ae23 (orange) */
+
 .App {
   text-align: center;
+  /* background-color: #066684; */
 }
 
 li {
@@ -22,7 +25,7 @@ a {
 }
 
 .App-header {
-  background-color: #282c34;
+  /* background-color: #282c34; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;

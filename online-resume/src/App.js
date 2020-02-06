@@ -8,7 +8,7 @@ import {
 } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import logo from './logo.svg';
-import Nav from './Components/Nav.js';
+import Navigation from './Components/Nav.js';
 import Home from './Components/Home.js';
 import About from './Components/About.js';
 import Education from './Components/Education.js';
@@ -18,18 +18,19 @@ import './css/App.css';
 
 function App() {
   return (
-    <Router>
-      <Fragment>
+    // <Router>
+    //   <Fragment>
         <div className="App">
-          <Nav />
-          <Switch>
+          <Navigation />
+          <Home />
+          {/* <Switch>
             <Route path='/' exact component={Home} />
             <Route path='/about' component={About} />
             <Route path='/education' component={Education} />
             <Route path='/experience' component={Experience} />
-            <Route path='/portfolio' component={Portfolio} />
+            <Route path='/portfolio' component={Portfolio} /> */}
             {/* <Route component={ErrorPage} /> */}
-          </Switch>
+          {/* </Switch> */}
           <header className="App-header">
             <img src={logo} className="App-logo" alt="logo" />
             <p>
@@ -45,8 +46,8 @@ function App() {
             </a>
           </header>
         </div>
-      </Fragment>
-    </Router>
+    //   </Fragment>
+    // </Router>
   );
 }
 
