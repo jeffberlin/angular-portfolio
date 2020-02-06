@@ -79,21 +79,21 @@ app.controller('resumeCtrl', function($scope, $document) {
     {
       schoolName: 'Udacity',
       schoolURL: 'https://www.udacity.com/course/c-plus-plus-nanodegree--nd213',
-      course: 'C++ - Nanodegree',
+      course: 'C++ - Nanodegree/Certification',
       date: 'March 2019 - Present',
       courseInfo: 'Learning to build a route planner using OpenStreetMap data, write a process monitor for your computer, and implement your own smart pointers. Finally, showcasing all of the newfound skills by building a multithreaded traffic simulator and coding a personal C++ application.'
     },
     {
 			schoolName: 'Udacity',
 			schoolURL: 'https://www.udacity.com/course/react-nanodegree--nd019',
-			course: 'React Development - Nanodegree',
+			course: 'React Development - Nanodegree/Certification',
 			date: 'June 2018 - October 2018',
 			courseInfo: 'Learning the in\'s and out\'s of the React, React Native, and Redux frameworks through this course. To successfully complete the course, we had to complete 3 total projects, using each framework.'
 		},
 		{
 			schoolName: 'Udacity',
 			schoolURL: 'https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001',
-			course: 'Front End Web Development - Nanodegree',
+			course: 'Front End Web Development - Nanodegree/Certification',
 			date: 'August 2016 - March 2017',
 			courseInfo: 'Through this Front End Developer program, I learned how to become proficient using HTML, CSS, and Javascript. Some of the tools, skills, and languages I had to use in order to properly complete the course projects were: DOM manipulation, browser leveraging, Knockoutjs, Google Maps API, Pagespeed insights, responsive web design, and Jasmine Unit Testing.'
 		},
