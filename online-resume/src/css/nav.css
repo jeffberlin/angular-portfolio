@@ -7,3 +7,7 @@
 .active, .navbar-nav .nav-link:hover, .fab:hover {
   color: #f5ae23 !important;
 }
+
+.nav-link, .fab {
+  color: #066684;
+}

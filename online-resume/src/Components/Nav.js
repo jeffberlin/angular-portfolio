@@ -14,11 +14,9 @@ function Navigation() {
     fontSize: 18,
     padding: 15,
     letterSpacing: .5,
-    color: '#066684',
   }
 
   const socialStyle = {
-    color: '#066684',
     opacity: .8,
     marginRight: 15,
     fontSize: '18pt'
@@ -30,16 +28,16 @@ function Navigation() {
         <Container>
           <Navbar.Brand>
             <a href="https://www.linkedin.com/in/jeff-berlin/" target="_blank">
-              <i class="fab fa-linkedin-in" style={socialStyle} title="LinkedIn"></i>
+              <i className="fab fa-linkedin-in" style={socialStyle} title="LinkedIn"></i>
             </a>
             <a href="https://github.com/jeffberlin" target="_blank">
-              <i class="fab fa-github" style={socialStyle} title="GitHub"></i>
+              <i className="fab fa-github" style={socialStyle} title="GitHub"></i>
             </a>
             <a href="https://stackoverflow.com/users/7426944/jeff-berlin" target="_blank">
-              <i class="fab fa-stack-overflow" style={socialStyle} title="Stack Overflow"></i>
+              <i className="fab fa-stack-overflow" style={socialStyle} title="Stack Overflow"></i>
             </a>
             <a href="https://angel.co/jeffrey-berlin-1" target="_blank">
-              <i class="fab fa-angellist" style={socialStyle} title="AngelList"></i>
+              <i className="fab fa-angellist" style={socialStyle} title="AngelList"></i>
             </a>
           </Navbar.Brand>
           <Nav className="justify-content-end">
