@@ -13,7 +13,7 @@ function Navigation() {
   const navStyle = {
     fontSize: 18,
     padding: 15,
-    letterSpacing: .5,
+    color: '#066684'
   }
 
   const socialStyle = {
@@ -47,7 +47,7 @@ function Navigation() {
               to="home"
               spy={true}
               smooth={true}
-              offset={-70}
+              offset={-90}
               duration={500}
               style={navStyle}
             >
