@@ -1,3 +1,9 @@
 .navbar-nav .nav-link:hover, .fab:hover {
   cursor: pointer;
+  transition: .3s ease;
+  -webkit-transition: .3s ease;
+}
+
+.active, .navbar-nav .nav-link:hover, .fab:hover {
+  color: #f5ae23 !important;
 }

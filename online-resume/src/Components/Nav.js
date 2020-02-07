@@ -29,16 +29,16 @@ function Navigation() {
       <Navbar fixed="top">
         <Container>
           <Navbar.Brand>
-            <a href="" target="_blank">
+            <a href="https://www.linkedin.com/in/jeff-berlin/" target="_blank">
               <i class="fab fa-linkedin-in" style={socialStyle} title="LinkedIn"></i>
             </a>
-            <a href="" target="_blank">
+            <a href="https://github.com/jeffberlin" target="_blank">
               <i class="fab fa-github" style={socialStyle} title="GitHub"></i>
             </a>
-            <a href="" target="_blank">
+            <a href="https://stackoverflow.com/users/7426944/jeff-berlin" target="_blank">
               <i class="fab fa-stack-overflow" style={socialStyle} title="Stack Overflow"></i>
             </a>
-            <a href="" target="_blank">
+            <a href="https://angel.co/jeffrey-berlin-1" target="_blank">
               <i class="fab fa-angellist" style={socialStyle} title="AngelList"></i>
             </a>
           </Navbar.Brand>
