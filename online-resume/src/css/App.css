@@ -1,5 +1,11 @@
 /* colors: #066684 (teal), #f5ae23 (orange) */
 
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+  text-align: inherit;
+}
+
 .App {
   text-align: center;
   /* background-color: #066684; */
