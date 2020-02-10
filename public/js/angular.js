@@ -110,7 +110,7 @@ app.controller('resumeCtrl', function($scope, $document) {
   $scope.projects = [
     {
       title: 'Goth Industrial Night Flyer',
-      image: './images/goth-industrial-night-flyer_400.jpg',
+      image: './images/goth_industrial_night_flyer-400.jpg',
       url: '/goth-industrial-night-flyer',
       category: 'design',
     // next lines are to handle the pop-up modals
@@ -128,7 +128,7 @@ app.controller('resumeCtrl', function($scope, $document) {
     },
     {
       title: 'Back To The 80\'s Flyer',
-      image: './images/back-to-80s-flyer_400.jpg',
+      image: './images/back_to_80s_flyer-400.jpg',
       url: '/back-to-80s-flyer',
       category: 'design',
     // next lines are to handle the pop-up modals
@@ -182,7 +182,7 @@ app.controller('resumeCtrl', function($scope, $document) {
     },
     {
       title: 'SP the MC Birthday Flyer',
-      image: './images/sp-30th-400.jpg',
+      image: './images/sp_30th-400.jpg',
       url: '/sp-birthday-flyer',
       category: 'design',
     // next lines are to handle the pop-up modals
@@ -200,7 +200,7 @@ app.controller('resumeCtrl', function($scope, $document) {
     },
     {
       title: 'BMT Micro Blog',
-      image: './images/bmt-micro-blog-screenshot.jpg',
+      image: './images/bmt_micro_blog_screenshot-400.jpg',
       url: 'https://blog.bmtmicro.com',
       category: ['development', 'design'],
     // next lines are to handle the pop-up modals
@@ -218,7 +218,7 @@ app.controller('resumeCtrl', function($scope, $document) {
     },
     {
       title: 'Gothic Industrial Madness',
-      image: './images/gothic-industrial-madness-flyer_400.jpg',
+      image: './images/gothic_industrial_madness_flyer-400.jpg',
       url: '/gothic-industrial-madness-flyer',
       category: 'design',
     // next lines are to handle the pop-up modals
@@ -254,7 +254,7 @@ app.controller('resumeCtrl', function($scope, $document) {
     },
     {
       title: 'Midsummer Night Flyer',
-      image: './images/midsummer-night-flyer_400.jpg',
+      image: './images/midsummer_night_flyer-400.jpg',
       url: '/midsummer-night-flyer',
       category: 'design',
     // next lines are to handle the pop-up modals
@@ -272,7 +272,7 @@ app.controller('resumeCtrl', function($scope, $document) {
     },
     {
       title: 'May the Fourth Flyer',
-      image: './images/may-4th-flyer_400.jpg',
+      image: './images/may_4th_flyer-400.jpg',
       url: '/may-4th-flyer',
       category: 'design',
     // next lines are to handle the pop-up modals
@@ -290,7 +290,7 @@ app.controller('resumeCtrl', function($scope, $document) {
     },
     {
       title: 'BMT Micro Catalog',
-      image: './images/bmt-catalog-screenshot.jpg',
+      image: './images/bmt_catalog_screenshot-400.jpg',
       url: 'https://www.bmtmicro.com/bmtcatalog',
       category: ['development', 'design'],
     // next lines are to handle the pop-up modals
@@ -308,7 +308,7 @@ app.controller('resumeCtrl', function($scope, $document) {
     },
     {
 			title: 'BMT Micro Customer Help',
-			image: './images/bmt-customer-help-screenshot.jpg',
+			image: './images/bmt_customer_help_screenshot-400.jpg',
 			url: 'https://help.bmtmicro.com/customers',
 			category: ['development', 'design'],
 		// next lines are to handle the pop-up modals
@@ -326,7 +326,7 @@ app.controller('resumeCtrl', function($scope, $document) {
 		},
     {
 			title: 'JBR',
-			image: './images/jbrally-screenshot.jpg',
+			image: './images/jbrally_screenshot-400.jpg',
 			url: 'http://jbrally.com/',
 			category: ['development', 'design'],
 		// next lines are to handle the pop-up modals
@@ -344,7 +344,7 @@ app.controller('resumeCtrl', function($scope, $document) {
 		},
     {
 			title: 'BMT Micro Vendor Help',
-			image: './images/bmt-help-screenshot.png',
+			image: './images/bmt_help_screenshot-400.jpg',
 			url: 'https://help.bmtmicro.com/vendors',
 			category: ['development', 'design'],
 		// next lines are to handle the pop-up modals
@@ -362,7 +362,7 @@ app.controller('resumeCtrl', function($scope, $document) {
 		},
     {
 			title: 'Would You Rather',
-			image: './images/would-you-rather-screenshot.png',
+			image: './images/would_you_rather_screenshot-400.jpg',
 			url: '/would-you-rather',
 			category: ['development', 'design'],
 		// next lines are to handle the pop-up modals
@@ -398,7 +398,7 @@ app.controller('resumeCtrl', function($scope, $document) {
 		// },
     {
 			title: 'BMT Micro, Inc. Email',
-			image: './images/bmt-email-screenshot.png',
+			image: './images/bmt_email_screenshot-400.jpg',
 			url: 'https://jeffberlin.github.io/bmt-email/original.html',
 			category: ['development', 'design'],
 		// next lines are to handle the pop-up modals
@@ -416,7 +416,7 @@ app.controller('resumeCtrl', function($scope, $document) {
 		},
     {
 			title: 'MyReads React',
-			image: './images/my-reads-screenshot.png',
+			image: './images/my_reads_screenshot-400.jpg',
 			url: '/my-reads',
 			category: ['development'],
 		// next lines are to handle the pop-up modals
@@ -434,7 +434,7 @@ app.controller('resumeCtrl', function($scope, $document) {
 		},
 		{
 			title: 'TRU Colors Brewing Co.',
-			image: './images/tcb_screenshot.png',
+			image: './images/tcb_screenshot-400.jpg',
 			url: 'https://jeffberlin.github.io/Tru_Colors_Brewing_updated/public',
 			category: ['development', 'design'],
 		// next lines are to handle the pop-up modals
@@ -452,7 +452,7 @@ app.controller('resumeCtrl', function($scope, $document) {
 		},
 		{
 			title: 'JOMO',
-			image: './images/jomo_screenshot.png',
+			image: './images/jomo_screenshot-400.jpg',
 			url: 'https://jeffberlin.github.io/JOMO_website/index.html',
 			category: 'development',
 		// next lines are to handle the pop-up modals
@@ -470,7 +470,7 @@ app.controller('resumeCtrl', function($scope, $document) {
 		},
     {
 			title: 'TCB Brochure',
-			image: './images/tcb_brochure.png',
+			image: './images/tcb_brochure-400.jpg',
 			url: './images/tru-colors-brochure.pdf',
 			category: 'design',
 		// next lines are to handle the pop-up modals
@@ -488,7 +488,7 @@ app.controller('resumeCtrl', function($scope, $document) {
 		},
 		{
 			title: 'JOMO Charlotte Giveaway',
-			image: './images/jomo_charlotte_screenshot.png',
+			image: './images/jomo_charlotte_screenshot-400.jpg',
 			url: 'https://jeffberlin.github.io/JOMO_website/charlotte.html',
 			category: 'development',
 		// next lines are to handle the pop-up modals
@@ -524,7 +524,7 @@ app.controller('resumeCtrl', function($scope, $document) {
 		},
 		{
 			title: 'JOMO Campus Rep',
-			image: './images/jomo_rep_screenshot.png',
+			image: './images/jomo_rep_screenshot-400.jpg',
 			url: 'https://jeffberlin.github.io/JOMO_website/rep.html',
 			category: 'development',
 		// next lines are to handle the pop-up modals
@@ -542,7 +542,7 @@ app.controller('resumeCtrl', function($scope, $document) {
 		},
 		{
 			title: 'Wilmington Breweries',
-			image: './images/wilm_brew_screenshot.png',
+			image: './images/wilm_brew_screenshot-400.jpg',
 			url: 'https://jeffberlin.github.io/Wilmington-Breweries/',
 			category: ['development', 'design'],
 		// next lines are to handle the pop-up modals
@@ -560,7 +560,7 @@ app.controller('resumeCtrl', function($scope, $document) {
 		},
     {
 			title: 'Appalachian Slab & Timber',
-			image: './images/app_st_logo.png',
+			image: './images/app_st_logo-400.jpg',
 			url: './images/applogo.jpg',
 			category: 'design',
 		// next lines are to handle the pop-up modals
@@ -578,7 +578,7 @@ app.controller('resumeCtrl', function($scope, $document) {
 		},
 		{
 			title: 'Appalachian Slab & Timber',
-			image: './images/app_brand_logo.png',
+			image: './images/app_brand_logo-400.jpg',
 			url: './images/app_brandlogo.jpg',
 			category: 'design',
 		// next lines are to handle the pop-up modals
@@ -596,7 +596,7 @@ app.controller('resumeCtrl', function($scope, $document) {
 		},
 		{
 			title: 'Movie Trailers',
-			image: './images/movie_trailers_screenshot.png',
+			image: './images/movie_trailers_screenshot.jpg',
 			url: 'https://jeffberlin.github.io/Movie_Trailer_python/fresh_tomatoes.html',
 			category: 'development',
 		// next lines are to handle the pop-up modals
@@ -614,7 +614,7 @@ app.controller('resumeCtrl', function($scope, $document) {
 		},
     {
 			title: 'Wilmington Brew Logo',
-			image: './images/ilm_brew_logo-400.png',
+			image: './images/ilm_brew_logo-400.jpg',
 			url: './images/ilm_brew_logo.jpg',
 			category: 'design',
 		// next lines are to handle the pop-up modals
@@ -632,7 +632,7 @@ app.controller('resumeCtrl', function($scope, $document) {
 		},
 		{
 			title: 'Javascript Resume',
-			image: './images/javascript_resume_screenshot.png',
+			image: './images/javascript_resume_screenshot.jpg',
 			url: 'https://jeffberlin.github.io/javascript-resume/',
 			category: ['development', 'design'],
 		// next lines are to handle the pop-up modals
@@ -650,7 +650,7 @@ app.controller('resumeCtrl', function($scope, $document) {
 		},
 		{
 			title: 'Frogger Javascript Game',
-			image: './images/frogger_screenshot.png',
+			image: './images/frogger_screenshot.jpg',
 			url: 'https://jeffberlin.github.io/Frogger-JavaScript/',
 			category: ['development', 'design'],
 		// next lines are to handle the pop-up modals
