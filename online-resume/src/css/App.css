@@ -11,11 +11,6 @@ html, body {
   text-align: -webkit-center !important;
 }
 
-.App {
-  text-align: center;
-  /* background-color: #066684; */
-}
-
 li {
   list-style-type: none;
 }
@@ -24,7 +19,7 @@ a {
   text-decoration: none;
 }
 
-p, .section-title, .nav-link {
+.section-title, .nav-link, {
   letter-spacing: .5px;
 }
 

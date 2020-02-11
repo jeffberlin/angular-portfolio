@@ -1,6 +1,5 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import PropTypes from 'prop-types';
 import Container from 'react-bootstrap/Container';
 import '../css/App.css';
 import '../css/about.css';

@@ -1,6 +1,6 @@
 .navbar {
-  background-color: rgba(255, 255, 255, 0.95);
-  box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.4);
+  background-color: rgba(6, 102, 132, .95);
+  /* box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.4); */
 }
 
 .navbar-nav .nav-link:hover, .fab:hover {
@@ -13,6 +13,6 @@
   color: #f5ae23 !important;
 }
 
-.nav-link, .fab {
+/* .nav-link, .fab {
   color: #066684;
-}
+} */

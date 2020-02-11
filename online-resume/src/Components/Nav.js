@@ -3,9 +3,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
-import NavDropdown from 'react-bootstrap/NavDropdown';
-import Drawer from '@material-ui/core/Drawer';
-// import { Link } from 'react-router-dom';
 import { Link, animateScroll as scroll } from 'react-scroll';
 import '../css/App.css';
 import '../css/nav.css';
@@ -14,106 +11,86 @@ function Navigation() {
   const navStyle = {
     fontSize: 18,
     padding: 15,
-    color: '#066684'
+    color: '#ffffff',
+    letterSpacing: .5
   }
 
   const socialStyle = {
     opacity: .8,
     marginRight: 15,
-    fontSize: '18pt'
+    fontSize: '18pt',
+    color: '#ffffff'
   }
 
-  const drawerWidth = 240;
-
   return (
-    <div>
-      <Drawer
-        
-        variant="permanent"
-        anchor="right"
-      >
-      </Drawer>
-      {/* <Navbar> */}
-        {/* <Container> */}
-          {/* <Navbar.Brand>
-            <a href="https://www.linkedin.com/in/jeff-berlin/" target="_blank">
-              <i className="fab fa-linkedin-in" style={socialStyle} title="LinkedIn"></i>
-            </a>
-            <a href="https://github.com/jeffberlin" target="_blank">
-              <i className="fab fa-github" style={socialStyle} title="GitHub"></i>
-            </a>
-            <a href="https://stackoverflow.com/users/7426944/jeff-berlin" target="_blank">
-              <i className="fab fa-stack-overflow" style={socialStyle} title="Stack Overflow"></i>
-            </a>
-            <a href="https://angel.co/jeffrey-berlin-1" target="_blank">
-              <i className="fab fa-angellist" style={socialStyle} title="AngelList"></i>
-            </a>
-          </Navbar.Brand> */}
-          {/* <Nav className="flex-column">
-            <Link
-              className="nav-link"
-              activeClass="active"
-              to="home"
-              spy={true}
-              smooth={true}
-              offset={-90}
-              duration={500}
-              style={navStyle}
-            >
-              Home
-            </Link>
-            <Link
-              className="nav-link"
-              activeClass="active"
-              to="about"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-              style={navStyle}
-            >
-              About
-            </Link>
-            <Link
-              className="nav-link"
-              activeClass="active"
-              to="education"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-              style={navStyle}
-            >
-              Education
-            </Link>
-            <Link
-              className="nav-link"
-              activeClass="active"
-              to="experience"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-              style={navStyle}
-            >
-              Experience
-            </Link>
-            <Link
-              className="nav-link"
-              activeClass="active"
-              to="portfolio"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-              style={navStyle}
-            >
-              Portfolio
-            </Link>
-          </Nav> */}
-        {/* </Container> */}
-      {/* </Navbar> */}
-    </div>
+    <Navbar fixed="top">
+      <Container>
+        <Navbar.Brand>
+          <a href="https://www.linkedin.com/in/jeff-berlin/" target="_blank" alt="LinkedIn Profile" rel="noopener noreferrer" title="LinkedIn Profile">
+            <i className="fab fa-linkedin-in" style={socialStyle}></i>
+          </a>
+          <a href="https://github.com/jeffberlin" target="_blank" alt="Github Profile" rel="noopener noreferrer" title="Github Profile">
+            <i className="fab fa-github" style={socialStyle}></i>
+          </a>
+          <a href="https://stackoverflow.com/story/jeff-berlin" target="_blank" alt="Stack Overflow Profile" rel="noopener noreferrer" title="Stack Overflow Profile">
+            <i className="fab fa-stack-overflow" style={socialStyle}></i>
+          </a>
+          <a href="https://angel.co/jeffrey-berlin-1" target="_blank" alt="AngelList Profile" rel="noopener noreferrer" title="AngelList Profile">
+            <i className="fab fa-angellist" style={socialStyle}></i>
+          </a>
+        </Navbar.Brand>
+        <Nav>
+          <Link
+            className="nav-link"
+            activeClass="active"
+            to="about"
+            spy={true}
+            smooth={true}
+            offset={-55}
+            duration={500}
+            style={navStyle}
+          >
+            About
+          </Link>
+          <Link
+            className="nav-link"
+            activeClass="active"
+            to="education"
+            spy={true}
+            smooth={true}
+            offset={-55}
+            duration={500}
+            style={navStyle}
+          >
+            Education
+          </Link>
+          <Link
+            className="nav-link"
+            activeClass="active"
+            to="experience"
+            spy={true}
+            smooth={true}
+            offset={-55}
+            duration={500}
+            style={navStyle}
+          >
+            Experience
+          </Link>
+          <Link
+            className="nav-link"
+            activeClass="active"
+            to="portfolio"
+            spy={true}
+            smooth={true}
+            offset={-55}
+            duration={500}
+            style={navStyle}
+          >
+            Work
+          </Link>
+        </Nav>
+      </Container>
+    </Navbar>
   )
 }
 
