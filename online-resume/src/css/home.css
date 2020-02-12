@@ -1,8 +1,8 @@
 .home {
   background-color: #066684;
-  height: 100vh;
+  /* height: 100vh; */
   padding-top: 10%;
-  /* padding: 6rem 0 4rem 0; */
+  padding-bottom: 4rem;
 }
 
 .headshot {

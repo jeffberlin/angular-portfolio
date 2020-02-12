@@ -48,25 +48,36 @@ function Skills() {
           <div
             className="progress-bar"
             role="progressbar"
-            aria-valuenow="75"
+            aria-valuenow="82"
             aria-valuemin="0"
             aria-valuemax="100"
-            style={{ width: '75%' }}
+            style={{ width: '82%' }}
           >
             JavaScript
           </div>
         </div>
-
         <div className="progress animated fadeIn slow delay-2s">
           <div
             className="progress-bar"
             role="progressbar"
-            aria-valuenow="68"
+            aria-valuenow="77"
             aria-valuemin="0"
             aria-valuemax="100"
-            style={{ width: '68%' }}
+            style={{ width: '77%' }}
           >
-            React
+            AngularJS
+          </div>
+        </div>
+        <div className="progress animated fadeIn slow delay-2s">
+          <div
+            className="progress-bar"
+            role="progressbar"
+            aria-valuenow="50"
+            aria-valuemin="0"
+            aria-valuemax="100"
+            style={{ width: '50%' }}
+          >
+            PHP
           </div>
         </div>
       </Col>
@@ -87,18 +98,6 @@ function Skills() {
           <div
             className="progress-bar"
             role="progressbar"
-            aria-valuenow="60"
-            aria-valuemin="0"
-            aria-valuemax="100"
-            style={{ width: '60%' }}
-          >
-            Foundation
-          </div>
-        </div>
-        <div className="progress animated fadeIn slow delay-2s">
-          <div
-            className="progress-bar"
-            role="progressbar"
             aria-valuenow="85"
             aria-valuemin="0"
             aria-valuemax="100"
@@ -107,6 +106,112 @@ function Skills() {
             JQuery
           </div>
         </div>
+        <div className="progress animated fadeIn slow delay-2s">
+          <div
+            className="progress-bar"
+            role="progressbar"
+            aria-valuenow="68"
+            aria-valuemin="0"
+            aria-valuemax="100"
+            style={{ width: '68%' }}
+          >
+            React
+          </div>
+        </div>
+        <div className="progress animated fadeIn slow delay-2s">
+          <div
+            className="progress-bar"
+            role="progressbar"
+            aria-valuenow="78"
+            aria-valuemin="0"
+            aria-valuemax="100"
+            style={{ width: '78%' }}
+          >
+            WordPress
+          </div>
+        </div>
+        <div className="progress animated fadeIn slow delay-2s">
+          <div
+            className="progress-bar"
+            role="progressbar"
+            aria-valuenow="100"
+            aria-valuemin="0"
+            aria-valuemax="100"
+            style={{ width: '100%' }}
+          >
+            Responsive Web Design
+          </div>
+        </div>
+      </Col>
+      <Col lg={12}>
+        <h4 className="animated fadeIn slow delay-1s" style={headerStyle}>Design</h4>
+      </Col>
+      <Col>
+        <div className="progress animated fadeIn slow delay-2s">
+          <div
+            className="progress-bar"
+            role="progressbar"
+            aria-valuenow="75"
+            aria-valuemin="0"
+            aria-valuemax="100"
+            style={{ width: '75%' }}
+          >
+            Photoshop
+          </div>
+        </div>
+        <div className="progress animated fadeIn slow delay-2s">
+          <div
+            className="progress-bar"
+            role="progressbar"
+            aria-valuenow="70"
+            aria-valuemin="0"
+            aria-valuemax="100"
+            style={{ width: '70%' }}
+          >
+            InDesign
+          </div>
+        </div>
+        <div className="progress animated fadeIn slow delay-2s">
+          <div
+            className="progress-bar"
+            role="progressbar"
+            aria-valuenow="50"
+            aria-valuemin="0"
+            aria-valuemax="100"
+            style={{ width: '50%' }}
+          >
+            Sketch
+          </div>
+        </div>
+      </Col>
+      <Col>
+        <div className="progress animated fadeIn slow delay-2s">
+          <div
+            className="progress-bar"
+            role="progressbar"
+            aria-valuenow="65"
+            aria-valuemin="0"
+            aria-valuemax="100"
+            style={{ width: '65%' }}
+          >
+            Illustrator
+          </div>
+        </div>
+        <div className="progress animated fadeIn slow delay-2s">
+          <div
+            className="progress-bar"
+            role="progressbar"
+            aria-valuenow="80"
+            aria-valuemin="0"
+            aria-valuemax="100"
+            style={{ width: '80%' }}
+          >
+            XD
+          </div>
+        </div>
+      </Col>
+      <Col lg={12}>
+        <h4 className="animated fadeIn slow delay-1s" style={headerStyle}></h4>
       </Col>
     </Row>
   )
