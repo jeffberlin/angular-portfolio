@@ -17,7 +17,6 @@ function Navigation() {
 
   const socialStyle = {
     opacity: .8,
-    marginRight: 15,
     fontSize: '18pt',
     color: '#ffffff'
   }
@@ -46,7 +45,7 @@ function Navigation() {
             to="about"
             spy={true}
             smooth={true}
-            offset={-55}
+            offset={-72}
             duration={500}
             style={navStyle}
           >
@@ -77,7 +76,7 @@ function Navigation() {
             Experience
           </Link>
           <Link
-            className="nav-link"
+            className="nav-link nav-link-last"
             activeClass="active"
             to="portfolio"
             spy={true}

@@ -1,0 +1,12 @@
+.progress {
+  height: 1.3rem;
+  letter-spacing: .5px;
+  font-size: 10pt;
+  margin-bottom: 1.2rem;
+}
+
+.progress-bar {
+  background-color: #f5ae23;
+  color: #066684;
+  font-weight: 600;
+}

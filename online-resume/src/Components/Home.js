@@ -4,6 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
+import Skills from './Skills.js';
 import '../css/App.css';
 import '../css/home.css';
 
@@ -19,13 +20,13 @@ function Home() {
         <Row>
           <Col
             lg={4}
-            className="text-right"
+            style={{ marginBottom: '2.5rem' }}
           >
             <Image
               className="animated fadeInLeft slow"
               src="./images/headshot-min.jpg"
-              height={220}
-              width={220}
+              height={250}
+              width={250}
               thumbnail
             />
           </Col>
@@ -42,7 +43,7 @@ function Home() {
                 Front End Web Developer
               </p>
             </div>
-            <ul className="contact-info" style={{ marginBottom: 0 }}>
+            <ul className="contact-info">
               <li className="email">
                 <a href="mailto:jeff@jbrally.com" alt="email" title="E-mail me">
                   <span>
@@ -68,9 +69,16 @@ function Home() {
                 </a>
               </li>
             </ul>
+            <a href="images/jeff-berlin-resume.pdf" download="jeff-berlin-resume" alt="Download Resume PDF" title="Download Resume PDF">
+              <button className="download-btn">
+                <i className="fas fa-download" style={{ fontSize: '12pt' }}></i>
+                &nbsp;Resume
+              </button>
+            </a>
           </Col>
 
         </Row>
+          <Skills />
       </Container>
     </div>
   )

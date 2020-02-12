@@ -1,5 +1,5 @@
 .navbar {
-  background-color: rgba(6, 102, 132, .95);
+  background-color: rgba(6, 102, 132, .93);
   /* box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.4); */
 }
 
@@ -13,6 +13,10 @@
   color: #f5ae23 !important;
 }
 
-/* .nav-link, .fab {
-  color: #066684;
-} */
+.navbar-brand a:first-child {
+  padding-left: 15px;
+}
+
+.navbar-brand a {
+  padding: 10px;
+}
