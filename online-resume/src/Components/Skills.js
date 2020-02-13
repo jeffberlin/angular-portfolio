@@ -14,24 +14,67 @@ function Skills() {
     letterSpacing: .5
   }
 
+  const boxStyle = {
+    backgroundColor: '#ffffff',
+    width: 150,
+    fontSize: '10pt',
+    letterSpacing: .5,
+    marginBottom: '1rem',
+    borderRadius: '.25rem',
+    height: '3rem',
+    display: 'flex',
+    overflow: 'hidden',
+    marginRight: '1rem'
+  }
+
   return (
     <Row>
       <Col lg={12}>
         <h4 className="animated fadeIn slow delay-1s" style={headerStyle}>Development</h4>
       </Col>
-      <Col>
-        <div className="progress animated fadeIn slow delay-2s">
-          <div
-            className="progress-bar"
-            role="progressbar"
-            aria-valuenow="93"
-            aria-valuemin="0"
-            aria-valuemax="100"
-            style={{ width: '93%' }}
-          >
-            HTML/HTML5
+      <Col lg={12}>
+        <ul className="animated fadeIn slow delay-2s">
+          <div className="box">
+            <li className="box2 text-center" style={{ width: '90%' }}>
+              HTML/HTML5
+            </li>
           </div>
-        </div>
+          <div className="box">
+            <li className="box2 text-center" style={{ width: '93%' }}>
+              CSS
+            </li>
+          </div>
+          <div className="box">
+            <li className="box2 text-center" style={{ width: '95%' }}>
+              Bootstrap
+            </li>
+          </div>
+          <div className="box">
+            <li className="box2 text-center" style={{ width: '82%' }}>
+              JavaScript
+            </li>
+          </div>
+          <div className="box">
+            <li className="box2 text-center" style={{ width: '85%' }}>
+              JQuery
+            </li>
+          </div>
+          <div className="box">
+            <li className="box2 text-center" style={{ width: '68%' }}>
+              React
+            </li>
+          </div>
+          <div className="box">
+            <li className="box2 text-center" style={{ width: '77%', marginRight: 0 }}>
+              AngularJS
+            </li>
+          </div>
+          <div className="box">
+            <li className="box2 text-center" style={{ width: '78%' }}>
+              WordPress
+            </li>
+          </div>
+        </ul>
         <div className="progress animated fadeIn slow delay-2s">
           <div
             className="progress-bar"
@@ -82,30 +125,7 @@ function Skills() {
         </div>
       </Col>
       <Col>
-        <div className="progress animated fadeIn slow delay-2s">
-          <div
-            className="progress-bar"
-            role="progressbar"
-            aria-valuenow="90"
-            aria-valuemin="0"
-            aria-valuemax="100"
-            style={{ width: '90%' }}
-          >
-            CSS
-          </div>
-        </div>
-        <div className="progress animated fadeIn slow delay-2s">
-          <div
-            className="progress-bar"
-            role="progressbar"
-            aria-valuenow="85"
-            aria-valuemin="0"
-            aria-valuemax="100"
-            style={{ width: '85%' }}
-          >
-            JQuery
-          </div>
-        </div>
+
         <div className="progress animated fadeIn slow delay-2s">
           <div
             className="progress-bar"
