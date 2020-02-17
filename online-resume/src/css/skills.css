@@ -1,41 +1,27 @@
+.progress-title, .other-skills li {
+  letter-spacing: .7px;
+  font-weight: 600;
+  color: #777777;
+}
+
 .progress {
-  height: 3rem;
-  letter-spacing: .5px;
-  font-size: 10pt;
-  margin-bottom: 1.2rem;
-  width: 150px;
+  background-color: #dddddd;
+  margin-bottom: 1rem;
+  border-radius: .25rem;
+  display: flex;
+  overflow: hidden;
 }
 
 .progress-bar {
   background-color: #f5ae23;
   color: #066684;
-  font-weight: 600;
 }
 
-ul {
+.other-skills {
   padding-left: 0;
-  display: flex;
+  text-align: center;
 }
 
-.box {
-  background-color: #ffffff;
-  width: 150px;
-  font-size: 10pt;
-  letter-spacing: .5px;
-  margin-bottom: 1rem;
-  border-radius: .25rem;
-  height: 3rem;
-  display: flex;
-  overflow: hidden;
-  margin-right: 1rem;
-}
-
-.box2 {
-  background-color: #f5ae23;
-  background-size: cover;
-  color: #066684;
-  font-weight: 600;
-  flex-direction: column;
-  display: flex;
-  justify-content: center;
+.other-skills li {
+  display: inline-block;
 }

@@ -1,7 +1,8 @@
 .about {
   padding-top: 1.5rem;
+  padding-bottom: 5rem;
 }
 
 p {
-  font-size: calc(10px + 2vmin);
+  font-size: calc(12px + 1vmin);
 }

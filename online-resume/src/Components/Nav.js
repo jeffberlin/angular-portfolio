@@ -57,7 +57,7 @@ function Navigation() {
             to="education"
             spy={true}
             smooth={true}
-            offset={-55}
+            offset={-72}
             duration={500}
             style={navStyle}
           >

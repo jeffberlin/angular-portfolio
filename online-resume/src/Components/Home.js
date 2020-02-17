@@ -18,10 +18,7 @@ function Home() {
     <div className="home">
       <Container>
         <Row>
-          <Col
-            lg={4}
-            style={{ marginBottom: '2.5rem' }}
-          >
+          <Col lg={4}>
             <Image
               className="animated fadeInLeft slow"
               src="./images/headshot-min.jpg"
@@ -33,6 +30,7 @@ function Home() {
           <Col
             lg={8}
             className="animated fadeInRight slow"
+            style={{ padding: '2rem 0'}}
           >
             <div style={{ borderBottom: '1px solid #ffffff', marginBottom: '1rem' }}>
               <h1 className="animated fadeIn slow delay-1s">Jeff Berlin</h1>
@@ -76,10 +74,10 @@ function Home() {
               </button>
             </a>
           </Col>
-
         </Row>
-          <Skills />
+
       </Container>
+      {/* <Skills /> */}
     </div>
   )
 }
