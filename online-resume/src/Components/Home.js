@@ -77,7 +77,7 @@ function Home() {
         </Row>
 
       </Container>
-      {/* <Skills /> */}
+      <Skills />
     </div>
   )
 }

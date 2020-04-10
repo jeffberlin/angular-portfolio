@@ -14,11 +14,11 @@ function About() {
         <h1 className="text-left section-title">About</h1>
         <p>I am a web developer for BMT Micro, Inc. in Wilmington, North Carolina who loves bringing designs and ideas to life with a strong attention to detail and pixel-perfect magic. While taking classes in graphic design, my focus shifted to programming after completing Udacity's Front End Web Developer Nanodegree course. Since completing the Front End Nanodegree, I have also gone on to complete the React/Redux/React-Native Nanodegree course through Udacity.</p>
         <p>My first role as a developer started with a former mobile app start-up, JOMO. </p>
-        <Row>
+        {/* <Row>
           <Col>
             <Skills />
           </Col>
-        </Row>
+        </Row> */}
       </Container>
     </div>
   )

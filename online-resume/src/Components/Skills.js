@@ -12,7 +12,7 @@ function Skills() {
   const headerStyle = {
     marginBottom: '1rem',
     fontStyle: 'italic',
-    color: '#066684',
+    color: '#ffffff',
     letterSpacing: .5,
     textAlign: 'center'
   }
@@ -29,7 +29,7 @@ function Skills() {
     <Container>
     <Row>
       <Col lg={12}>
-        <h4 className="section-title" style={headerStyle}>Development</h4>
+        <h5 className="section-title" style={headerStyle}>Development</h5>
       </Col>
       <Col style={{ marginBottom: '1.5rem' }}>
         {/* <ul className="skills-list">
@@ -67,7 +67,7 @@ function Skills() {
         <ProgressBar now={100}></ProgressBar>
       </Col>
       <Col lg={12}>
-        <h4 className="section-title" style={headerStyle}>Design</h4>
+        <h5 className="section-title" style={headerStyle}>Design</h5>
       </Col>
       <Col style={{ marginBottom: '1.5rem' }}>
         <h6 className="progress-title">Photoshop</h6>
@@ -87,7 +87,7 @@ function Skills() {
         <ProgressBar now={80}></ProgressBar>
       </Col>
       <Col lg={12}>
-        <h4 className="section-title" style={headerStyle}>Other</h4>
+        <h5 className="section-title" style={headerStyle}>Other</h5>
       </Col>
       <Col>
         <ul className="other-skills">
