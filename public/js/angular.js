@@ -122,7 +122,7 @@ app.controller('resumeCtrl', function($scope, $document) {
 		// title to display in the modal
 			modalTitleName: 'Jeff Berlin Racing Website',
 		// body inside the modal
-			modalBody: 'This website is for Jeff Berlin Racing and provides media coverage for their events. It was built using ReactJS, Bootstrap v5, and NodeJS.',
+			modalBody: 'This website is for Jeff Berlin Racing and provides media coverage for their events. It was built using ReactJS, Bootstrap, and NodeJS.',
 		// handles the link description in modal
 			modalViewType: 'Website'
 		},
