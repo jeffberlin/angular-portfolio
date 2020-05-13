@@ -109,6 +109,24 @@ app.controller('resumeCtrl', function($scope, $document) {
 // Projects array to display images and info. Modal info is located in index.html
   $scope.projects = [
     {
+			title: 'JBR',
+			image: './images/jbrally_screenshot-400.jpg',
+			url: 'http://www.jeffberlinracing.com/',
+			category: ['development', 'design'],
+		// next lines are to handle the pop-up modals
+			modalName: 'jeffBerlinRacingModalCenter',
+		// Just add 'Title' to modalName
+			modalCenterTitle: 'jeffBerlinRacingModalCenterTitle',
+		// remove 'Center', add 'Long'
+			modalLongTitle: 'jeffBerlinRacingModalLongTitle',
+		// title to display in the modal
+			modalTitleName: 'Jeff Berlin Racing Website',
+		// body inside the modal
+			modalBody: 'This website is for Jeff Berlin Racing and provides media coverage for their events. It was built using ReactJS, Bootstrap v5, and NodeJS.',
+		// handles the link description in modal
+			modalViewType: 'Website'
+		},
+    {
       title: 'Goth Industrial Night Flyer',
       image: './images/goth_industrial_night_flyer-400.jpg',
       url: '/goth-industrial-night-flyer',
@@ -321,24 +339,6 @@ app.controller('resumeCtrl', function($scope, $document) {
 			modalTitleName: 'BMT Micro Customer Help Page',
 		// body inside the modal
 			modalBody: 'Part of my job with BMT Micro, Inc. is to redesign and recreate old webpages. This website is a redesigned FAQ/Help section for customers that was recreated in Wordpress.',
-		// handles the link description in modal
-			modalViewType: 'Website'
-		},
-    {
-			title: 'JBR',
-			image: './images/jbrally_screenshot-400.jpg',
-			url: 'http://jbrally.com/',
-			category: ['development', 'design'],
-		// next lines are to handle the pop-up modals
-			modalName: 'jeffBerlinRallyModalCenter',
-		// Just add 'Title' to modalName
-			modalCenterTitle: 'jeffBerlinRallyModalCenterTitle',
-		// remove 'Center', add 'Long'
-			modalLongTitle: 'jeffBerlinRallyModalLongTitle',
-		// title to display in the modal
-			modalTitleName: 'Jeff Berlin Rally Website',
-		// body inside the modal
-			modalBody: 'This website is for Jeff Berlin Rally Team and provides media coverage for their events. It was built using WordPress, WordPress Plugins, and custom HTML and CSS.',
 		// handles the link description in modal
 			modalViewType: 'Website'
 		},
