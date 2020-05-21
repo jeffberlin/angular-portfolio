@@ -111,7 +111,7 @@ app.controller('resumeCtrl', function($scope, $document) {
     {
 			title: 'JBR',
 			image: './images/jbrally_screenshot-400.jpg',
-			url: 'http://www.jeffberlinracing.com/',
+			url: 'https://www.jeffberlinracing.com/',
 			category: ['development', 'design'],
 		// next lines are to handle the pop-up modals
 			modalName: 'jeffBerlinRacingModalCenter',
