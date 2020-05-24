@@ -120,7 +120,7 @@ app.controller('resumeCtrl', function($scope, $document) {
 		// remove 'Center', add 'Long'
 			modalLongTitle: 'jeffBerlinRacingModalLongTitle',
 		// title to display in the modal
-			modalTitleName: 'Jeff Berlin Racing Website',
+			modalTitleName: 'Jeff Berlin Racing',
 		// body inside the modal
 			modalBody: 'This website is for Jeff Berlin Racing and provides media coverage for their events. It was built using ReactJS, Bootstrap, and NodeJS.',
 		// handles the link description in modal
@@ -163,22 +163,22 @@ app.controller('resumeCtrl', function($scope, $document) {
       modalViewType: 'Full-Size Flyer'
     },
     {
-      title: 'Track and Rally Logo',
-      image: './images/track-and-rally-logo_400.jpg',
-      url: '/track-and-rally-logo',
-      category: 'design',
+      title: 'Track and Rally',
+      image: './images/track-and-rally-screenshot-400-min.jpg',
+      url: 'https://www.trackandrally.com/',
+      category: ['design', 'development'],
     // next lines are to handle the pop-up modals
-      modalName: 'trackAndRallyLogoModalCenter',
+      modalName: 'trackAndRallyModalCenter',
     // Just add 'Title' to modalName
-      modalCenterTitle: 'trackAndRallyLogoModalCenterTitle',
+      modalCenterTitle: 'trackAndRallyModalCenterTitle',
     // remove 'Center', add 'Long'
-      modalLongTitle: 'trackAndRallyLogoModalLongTitle',
+      modalLongTitle: 'trackAndRallyModalLongTitle',
     // title to display in the modal
-      modalTitleName: 'Track and Rally Logo',
+      modalTitleName: 'Track and Rally',
     // body inside the modal
-      modalBody: 'A logo created for Track and Rally that was built with Adobe Illustrator and Photoshop. The website is coming soon!',
+      modalBody: 'Created the logo and website for Track and Rally. The logo was created using Adobe Illustrator and the website was built in ReactJS, HTML, CSS, NodeJS, and Bootstrap.',
     // handles the link description in modal
-      modalViewType: 'Image'
+      modalViewType: 'Website'
     },
     {
       title: 'Goth Night Christmas Flyer',
