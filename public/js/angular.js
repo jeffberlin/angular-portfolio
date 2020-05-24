@@ -109,6 +109,24 @@ app.controller('resumeCtrl', function($scope, $document) {
 // Projects array to display images and info. Modal info is located in index.html
   $scope.projects = [
     {
+      title: 'Track and Rally',
+      image: './images/track-and-rally-screenshot-400-min.jpg',
+      url: 'https://www.trackandrally.com/',
+      category: ['design', 'development'],
+    // next lines are to handle the pop-up modals
+      modalName: 'trackAndRallyModalCenter',
+    // Just add 'Title' to modalName
+      modalCenterTitle: 'trackAndRallyModalCenterTitle',
+    // remove 'Center', add 'Long'
+      modalLongTitle: 'trackAndRallyModalLongTitle',
+    // title to display in the modal
+      modalTitleName: 'Track and Rally',
+    // body inside the modal
+      modalBody: 'Created the logo and website for Track and Rally. The logo was created using Adobe Illustrator and the website was built in ReactJS, HTML, CSS, NodeJS, and Bootstrap.',
+    // handles the link description in modal
+      modalViewType: 'Website'
+    },
+    {
 			title: 'JBR',
 			image: './images/jbrally_screenshot-400.jpg',
 			url: 'https://www.jeffberlinracing.com/',
@@ -161,24 +179,6 @@ app.controller('resumeCtrl', function($scope, $document) {
       modalBody: 'The event flyer for DJ Straftanz\'s \'Back To The 80\'s\' show. This was created using Adobe Photoshop.',
     // handles the link description in modal
       modalViewType: 'Full-Size Flyer'
-    },
-    {
-      title: 'Track and Rally',
-      image: './images/track-and-rally-screenshot-400-min.jpg',
-      url: 'https://www.trackandrally.com/',
-      category: ['design', 'development'],
-    // next lines are to handle the pop-up modals
-      modalName: 'trackAndRallyModalCenter',
-    // Just add 'Title' to modalName
-      modalCenterTitle: 'trackAndRallyModalCenterTitle',
-    // remove 'Center', add 'Long'
-      modalLongTitle: 'trackAndRallyModalLongTitle',
-    // title to display in the modal
-      modalTitleName: 'Track and Rally',
-    // body inside the modal
-      modalBody: 'Created the logo and website for Track and Rally. The logo was created using Adobe Illustrator and the website was built in ReactJS, HTML, CSS, NodeJS, and Bootstrap.',
-    // handles the link description in modal
-      modalViewType: 'Website'
     },
     {
       title: 'Goth Night Christmas Flyer',
