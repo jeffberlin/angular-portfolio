@@ -304,7 +304,7 @@
                   <br>
                   <div class="text-center">
                     <p class="modal-link"><a ng-href="{{x.url}}" target="_blank">View {{x.modalViewType}}</a></p>
-                    <a ng-href="{{x.url}}" target="_blank"><img class="img-fluid screenshot" ng-src="{{x.image}}" alt="{{x.title}}"></a>
+                    <a ng-href="{{x.url}}" target="_blank"><img class="img-fluid screenshot lazyload" ng-src="{{x.image}}" alt="{{x.title}}"></a>
                   </div>
                 </div>
               </div>
@@ -316,6 +316,8 @@
         <i class="fa fa-angle-up"></i>
       </div>
     </div>
+
+    <script src="js/lazysizes.min.js" async></script>
 
     <!-- Bootstrap 4 JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
