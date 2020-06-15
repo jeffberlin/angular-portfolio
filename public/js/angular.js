@@ -127,6 +127,24 @@ app.controller('resumeCtrl', function($scope, $document) {
       modalViewType: 'Website'
     },
     {
+      title: 'Biohazard Flyer',
+      image: './images/biohazard-flyer-400-min.jpg',
+      url: '/biohazard-flyer',
+      category: 'design',
+    // next lines are to handle the pop-up modals
+      modalName: 'biohazarFlyerModalCenter',
+    // Just add 'Title' to modalName
+      modalCenterTitle: 'biohazarFlyerModalCenterTitle',
+    // remove 'Center', add 'Long'
+      modalLongTitle: 'biohazarFlyerModalLongTitle',
+    // title to display in the modal
+      modalTitleName: 'Biohazard Flyer',
+    // body inside the modal
+      modalBody: 'The event flyer for DJ Straftanz\'s \'Biohazard\' show. This was created using Adobe Photoshop.',
+    // handles the link description in modal
+      modalViewType: 'Flyer'
+    },
+    {
 			title: 'JBR',
 			image: './images/jbrally_screenshot-400.jpg',
 			url: 'https://www.jeffberlinracing.com/',
