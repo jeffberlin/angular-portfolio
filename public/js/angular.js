@@ -453,7 +453,7 @@ app.controller('resumeCtrl', function($scope, $document) {
 		{
 			title: 'TRU Colors Brewing Co.',
 			image: './images/tcb_screenshot-400.jpg',
-			url: 'https://jeffberlin.github.io/Tru_Colors_Brewing_updated/public',
+			url: 'https://jeffberlin.github.io/Tru_Colors_Brewing_updated/',
 			category: ['development', 'design'],
 		// next lines are to handle the pop-up modals
 			modalName: 'TruColorsSiteModalCenter',
