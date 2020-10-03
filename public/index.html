@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head profile="http://www.w3.org/TR/html4/strict.dtd">
-
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-92789673-2"></script>
     <script>
@@ -11,7 +10,6 @@
 
     gtag('config', 'UA-92789673-2');
     </script>
-
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Open Graph info -->
@@ -38,39 +36,30 @@
     <link href="css/responsive.css" rel="stylesheet">
     <!-- Angular JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
-
   </head>
   <body onload="loadingFunc()" style="margin: 0;">
-
     <!-- <h2 id="loading-text" class="text-center">Loading cool stuff!</h2> -->
     <div id="loader" class="text-center"></div>
-
     <div ng-app="resume" ng-controller="resumeCtrl" id="mainDiv" style="display: none;">
       <header class="header-info container-fluid" id="top-page">
         <div class="row justify-content-between header">
           <div class="media-icons col-lg-4 col-md-4 col-xs-12 text-center">
             <ul class="social">
-
               <li class="social-icon">
                 <a href="https://www.linkedin.com/in/jeff-berlin/" target="_blank" alt="LinkedIn Profile" title="LinkedIn Profile"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
               </li>
-
               <li class="social-icon">
                 <a href="https://github.com/jeffberlin" target="_blank" alt="Github Profile" title="Github Profile"><i class="fa fa-github" aria-hidden="true"></i></a>
               </li>
-
               <li class="social-icon">
                 <a href="https://stackoverflow.com/story/jeff-berlin" target="_blank" alt="Stack Overflow Profile" title="Stack Overflow Profile"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
               </li>
-
               <li class="social-icon">
                 <a href="https://angel.co/jeffberlin" target="_blank" alt="AngelList Profile" title="AngelList Profile"><i class="fa fa-angellist" aria-hidden="true"></i></a>
               </li>
-
               <li class="social-icon">
                 <a href="https://www.behance.net/emericajb8bf5d" target="_blank" alt="Behance Profile" title="Behance Profile"><i class="fa fa-behance" aria-hidden="true"></i></a>
               </li>
-
             </ul>
           </div>
           <div class="col-lg-4 col-md-4 col-xs-12 text-center">
@@ -85,33 +74,27 @@
             <h1 class="name">{{myName()}}</h1>
             <h3 class="tag">{{headLine}}</h3>
             <ul class="contact-info">
-
               <li class="email">
                 <a href="mailto:jeff@jbrally.com" alt="email" title="E-mail me"><span class="fa fa-envelope"></span>
                   {{email}}
                 </a>
               </li>
-
               <li class="phone">
                 <a href="tel:1-302-463-5129" alt="Phone number" title="Call me"><span class="fa fa-phone"></span>
                   {{phone}}
                 </a>
               </li>
-
               <li class="location">
                 <a href="https://www.google.com/maps/place/Wilmington,+NC/@34.2068977,-78.1523955,119498m/data=!3m1!1e3!4m5!3m4!1s0x89a9f5a20debaed5:0x5e66493884093032!8m2!3d34.2103894!4d-77.8868117?hl=en" target="_blank" title="View on a map"><span class="fa fa-map-marker"></span>
                   {{location}}
                 </a>
               </li>
-
               <!-- <li class="location">
                 <a href="" target="_blank" alt="Location" title="View on map" data-toggle="modal" data-target="#locationModal"><span class="fa fa-map-marker"></span>{{location}}</a>
               </li> -->
-
             </ul>
           </div>
         </div>
-
         <!-- Modal -->
         <!-- <div class="modal fade" id="locationModal" tabindex="-1" role="dialog" aria-labelledby="locationModalCenterTitle" aria-hidden="true">
           <div class="modal-dialog modal-dialog-centered" role="document">
@@ -135,27 +118,21 @@
             <i class="fa fa-bars"></i>
           </div>
           <ul id="main-menu" class="collapse navbar-collapse">
-
             <li>
               <a id="mobile-skills-button" href="#" data-toggle="collapse" data-target=".navbar-collapse">Skills</a>
             </li>
-
             <li>
               <a id="mobile-experience-button" href="#" data-toggle="collapse" data-target=".navbar-collapse">Experience</a>
             </li>
-
             <li>
               <a id="mobile-education-button" href="#" data-toggle="collapse" data-target=".navbar-collapse">Education</a>
             </li>
-
             <li>
               <a id="mobile-portfolio-button" href="#" data-toggle="collapse" data-target=".navbar-collapse">Portfolio</a>
             </li>
-
             <li>
               <a id="mobile-topcontrol" href="#" data-toggle="collapse" data-target=".navbar-collapse">Back to Top ^</a>
             </li>
-
           </ul>
         </div>
 
@@ -164,23 +141,18 @@
           <div class="container text-center">
             <nav>
               <ul id="page-nav">
-
                 <li class="nav-item">
                   <a id="skills-button" alt="Scroll to Skills section" title="Scroll to Skills section">Skills</a>
                 </li>
-
                 <li class="nav-item">
                   <a id="experience-button" alt="Scroll to Experience section" title="Scroll to Experience section">Experience</a>
                 </li>
-
                 <li class="nav-item">
                   <a id="education-button" alt="Scroll to Education section" title="Scroll to Education section">Education</a>
                 </li>
-
                 <li class="nav-item">
                   <a id="portfolio-button" alt="Scroll to Portfolio section" title="Scroll to Portfolio section">Portfolio</a>
                 </li>
-
               </ul>
             </nav>
           </div>
