@@ -179,7 +179,7 @@ map "/bmtmicro-logo" do
         'Content-Type' => 'text/html',
         'Cache-Control' => 'public, max-age=86400'
       },
-      File.open('public/bmtmicro-logo-logo.html')
+      File.open('public/bmtmicro-logo.html')
     ]
   }
 end
