@@ -109,6 +109,42 @@ app.controller('resumeCtrl', function($scope, $document) {
 // Projects array to display images and info. Modal info is located in index.html
   $scope.projects = [
     {
+      title: 'BMT Micro Vendors Center',
+      image: './images/bmt-vendors-area-screenshot-400.jpg',
+      url: 'https://vendors-new.bmtmicro.com/',
+      category: ['design', 'development'],
+    // next lines are to handle the pop-up modals
+      modalName: 'BmtVendorsAreaModalCenter',
+    // Just add 'Title' to modalName
+      modalCenterTitle: 'BmtVendorsAreaModalCenterTitle',
+    // remove 'Center', add 'Long'
+      modalLongTitle: 'BmtVendorsAreaModalLongTitle',
+    // title to display in the modal
+      modalTitleName: 'BMT Micro Vendors Center',
+    // body inside the modal
+      modalBody: 'Completely redesigned the vendors/developers center for BMT Micro using HTML, CSS, Javascript, JSP, JQuery, and Bootstrap.',
+    // handles the link description in modal
+      modalViewType: 'Website'
+    },
+    {
+      title: 'BMT Micro Logo',
+      image: './images/bmtmicro-logo-400.jpg',
+      url: '/bmtmicro-logo',
+      category: 'design',
+    // next lines are to handle the pop-up modals
+      modalName: 'BmtLogoModalCenter',
+    // Just add 'Title' to modalName
+      modalCenterTitle: 'BmtLogoModalCenterTitle',
+    // remove 'Center', add 'Long'
+      modalLongTitle: 'BmtLogoModalLongTitle',
+    // title to display in the modal
+      modalTitleName: 'BMT Micro Logo',
+    // body inside the modal
+      modalBody: 'Created a new company logo for BMT Micro using Adobe Photoshop and Illustrator that is starting to be rolled out through the new, redesigned websites.',
+    // handles the link description in modal
+      modalViewType: 'Logo'
+    },
+    {
       title: 'Track and Rally',
       image: './images/track-and-rally-screenshot-400-min.jpg',
       url: 'https://www.trackandrally.com/',
