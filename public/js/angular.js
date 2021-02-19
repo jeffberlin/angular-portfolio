@@ -120,7 +120,7 @@ app.controller('resumeCtrl', function($scope, $document) {
     // remove 'Center', add 'Long'
       modalLongTitle: 'BmtVendorsAreaModalLongTitle',
     // title to display in the modal
-      modalTitleName: 'BMT Micro Vendors Center',
+      modalTitleName: 'BMT Micro Access Center',
     // body inside the modal
       modalBody: 'Completely redesigned the vendors, customers, and affiliates centers (same design pattern) for BMT Micro using HTML, CSS, Javascript, JSP, JQuery, and Bootstrap.',
     // handles the link description in modal
