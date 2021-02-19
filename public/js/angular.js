@@ -109,7 +109,7 @@ app.controller('resumeCtrl', function($scope, $document) {
 // Projects array to display images and info. Modal info is located in index.html
   $scope.projects = [
     {
-      title: 'BMT Micro Vendors Center',
+      title: 'BMT Micro Access Center',
       image: './images/bmt-vendors-area-screenshot-400.jpg',
       url: 'https://vendors.bmtmicro.com/',
       category: ['design', 'development'],
