@@ -122,7 +122,7 @@ app.controller('resumeCtrl', function($scope, $document) {
     // title to display in the modal
       modalTitleName: 'BMT Micro Vendors Center',
     // body inside the modal
-      modalBody: 'Completely redesigned the vendors/developers center, along with the customers and affiliates areas (same design pattern) for BMT Micro using HTML, CSS, Javascript, JSP, JQuery, and Bootstrap.',
+      modalBody: 'Completely redesigned the vendors, customers, and affiliates centers (same design pattern) for BMT Micro using HTML, CSS, Javascript, JSP, JQuery, and Bootstrap.',
     // handles the link description in modal
       modalViewType: 'Website'
     },
