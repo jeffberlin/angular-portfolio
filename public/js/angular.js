@@ -31,15 +31,15 @@ app.controller('resumeCtrl', function($scope, $document) {
       jobTitle: 'Web Developer',
       workDate: 'April 2018 - Present',
       company: 'BMT Micro, Inc.',
-      companyURL: 'https://www.bmtmicro.com',
+      companyURL: 'https://www.bmtmicro.com/',
       workLocation: 'Wilmington, NC',
-      jobDescription: 'BMT Micro is an ecommerce company for software and game developers and handle their shopping carts and payment transactions. I am in charge of building and maintaining their WordPress plugin, coding automated email response templates, redesign/redevelop company web pages, and maintaining features to the company website.'
+      jobDescription: 'BMT Micro is an ecommerce company for software and game developers and handle their shopping carts and payment transactions. I am in charge of building and maintaining their WordPress plugin, coding automated email response templates, redesign/redevelop company web sites, and maintaining all company websites.'
     },
 		{
 			jobTitle: 'UI/UX Developer (Contractor)',
 			workDate: 'December 2017 - April 2018',
 			company: 'TRU Colors Brewing Co.',
-			companyURL: 'https://www.trucolors.co',
+			companyURL: 'https://www.trucolors.co/',
 			workLocation: 'Wilmington, NC',
 			jobDescription: 'A local startup that will ultimately be run and operated by active gang members - working together to end gang-on-gang violence in our area. My primary responsibilities were to create their company website, consult on ad design questions, and create their brochure to distribute to potential partners. The technology I used to handle the work consists of HTML, CSS, Bootstrap, Javascript, JQuery, Photoshop, InDesign, Illustrator, and Sketch.'
 		},
@@ -65,13 +65,13 @@ app.controller('resumeCtrl', function($scope, $document) {
 			workLocation: 'Conway, SC',
 			jobDescription: 'Worked closely with the Parts Manager to ensure we were being as efficient and accurate as possible with our work. I handled all shipments, ordering, and assisting co-workers and customers with any parts needs.'
 		},
-		{
-			jobTitle: 'Night Manager',
-			workDate: 'September 2007 - July 2014',
-			company: 'J & P Management, Inc., DBA Jersey Mike\'s',
-			workLocation: 'North Myrtle Beach, SC',
-			jobDescription: 'Assigned duties for co-workers to have completed by the end of the shift, counted the money at the end of the shift, and handled any issues that may arise.'
-		}
+		// {
+		// 	jobTitle: 'Night Manager',
+		// 	workDate: 'September 2007 - July 2014',
+		// 	company: 'J & P Management, Inc., DBA Jersey Mike\'s',
+		// 	workLocation: 'North Myrtle Beach, SC',
+		// 	jobDescription: 'Assigned duties for co-workers to have completed by the end of the shift, counted the money at the end of the shift, and handled any issues that may arise.'
+		// }
 	];
 
 // Array for Education
