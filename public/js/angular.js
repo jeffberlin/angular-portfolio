@@ -109,6 +109,24 @@ app.controller('resumeCtrl', function($scope, $document) {
 // Projects array to display images and info. Modal info is located in index.html
   $scope.projects = [
     {
+      title: 'BMT Micro Info Site',
+      image: './images/bmt-micro-customer-service-screenshot-400.jpg',
+      url: 'https://info.bmtmicro.com/',
+      category: ['design', 'development'],
+    // next lines are to handle the pop-up modals
+      modalName: 'BmtInfoSiteModalCenter',
+    // Just add 'Title' to modalName
+      modalCenterTitle: 'BmtInfoSiteModalCenterTitle',
+    // remove 'Center', add 'Long'
+      modalLongTitle: 'BmtInfoSiteModalLongTitle',
+    // title to display in the modal
+      modalTitleName: 'BMT Micro Customer Service Site',
+    // body inside the modal
+      modalBody: 'Complete redesign and rebuild of the BMT Micro info/customer service website using HTML, CSS, Javascript, JQuery, and Bootstrap.',
+    // handles the link description in modal
+      modalViewType: 'Website'
+    },
+    {
       title: 'BMT Micro Access Center',
       image: './images/bmt-vendors-area-screenshot-400.jpg',
       url: 'https://vendors.bmtmicro.com/',
