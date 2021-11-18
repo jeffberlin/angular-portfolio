@@ -58,11 +58,11 @@ ul {
 	right: 10px;
 }
 
-.fa:hover, .mobile-menu {
-	-webkit-transition: all 0.4s ease-in-out;
-	-moz-transition: all 0.4s ease-in-out;
-	-o-transition: all 0.4s ease-in-out;
-	transition: all 0.4s ease-in-out;
+.fa:hover, .mobile-menu, .about-info-link {
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
+	transition: all 0.4s ease;
 }
 
 #topcontrol .fa-angle-up {
@@ -245,10 +245,17 @@ ul {
 .section-label {
 	font-size: 22px;
 	letter-spacing: .8px;
-	color: #009688;
 	font-weight: 500;
 	font-style: italic;
 	margin-bottom: 1.2px !important;
+}
+
+.section-label, .about-info-link {
+	color: #009688;
+}
+
+.about-info-link:hover {
+	color: #00635a;
 }
 
 .section-label, .description h5, .modal-title {
