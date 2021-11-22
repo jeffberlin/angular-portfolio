@@ -56,15 +56,15 @@ app.controller('resumeCtrl', function($scope, $document) {
 			workDate: 'September 2015 - January 2017',
 			company: 'No Limit Customs',
 			workLocation: 'North Myrtle Beach, SC',
-			jobDescription: 'Even though No Limit is a custom automotive shop, I was in charge of project scheduling, handling online sales, shipments, and also created the designs for the images used in online stores and ads.'
+			jobDescription: 'Even though No Limit Customs is a custom automotive shop, I was in charge of project scheduling, handling online sales, shipments, inventory, and also creating the designs used for the online shopping stores and advertisements.'
 		},
-		{
-			jobTitle: 'Parts Associate',
-			workDate: 'July 2014 - June 2015',
-			company: 'Hadwin-White Buick, GMC, Subaru',
-			workLocation: 'Conway, SC',
-			jobDescription: 'Worked closely with the Parts Manager to ensure we were being as efficient and accurate as possible with our work. I handled all shipments, ordering, and assisting co-workers and customers with any parts needs.'
-		},
+		// {
+		// 	jobTitle: 'Parts Associate',
+		// 	workDate: 'July 2014 - June 2015',
+		// 	company: 'Hadwin-White Buick, GMC, Subaru',
+		// 	workLocation: 'Conway, SC',
+		// 	jobDescription: 'Worked closely with the Parts Manager to ensure we were being as efficient and accurate as possible with our work. I handled all shipments, ordering, and assisting co-workers and customers with any parts needs.'
+		// },
 		// {
 		// 	jobTitle: 'Night Manager',
 		// 	workDate: 'September 2007 - July 2014',
@@ -76,13 +76,13 @@ app.controller('resumeCtrl', function($scope, $document) {
 
 // Array for Education
 	$scope.education = [
-    {
-      schoolName: 'Udacity',
-      schoolURL: 'https://www.udacity.com/course/c-plus-plus-nanodegree--nd213',
-      course: 'C++ - Nanodegree/Certification',
-      date: 'March 2019 - Present',
-      courseInfo: 'Learning to build a route planner using OpenStreetMap data, write a process monitor for your computer, and implement your own smart pointers. Finally, showcasing all of the newfound skills by building a multithreaded traffic simulator and coding a personal C++ application.'
-    },
+    // {
+    //   schoolName: 'Udacity',
+    //   schoolURL: 'https://www.udacity.com/course/c-plus-plus-nanodegree--nd213',
+    //   course: 'C++ - Nanodegree/Certification',
+    //   date: 'March 2019 - Present',
+    //   courseInfo: 'Learning to build a route planner using OpenStreetMap data, write a process monitor for your computer, and implement your own smart pointers. Finally, showcasing all of the newfound skills by building a multithreaded traffic simulator and coding a personal C++ application.'
+    // },
     {
 			schoolName: 'Udacity',
 			schoolURL: 'https://www.udacity.com/course/react-nanodegree--nd019',
