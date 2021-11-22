@@ -482,7 +482,7 @@ app.controller('resumeCtrl', function($scope, $document) {
 		// title to display in the modal
 			modalTitleName: 'BMT Micro Email Responses',
 		// body inside the modal
-			modalBody: 'This project is an HTMl email template that is used for BMT Micro\'s automated email responses. The template was designed using Adobe XD.',
+			modalBody: 'This project is an HTML email template that is used for BMT Micro\'s automated email responses. The template was designed using Adobe XD.',
 		// handles the link description in modal
 			modalViewType: 'Image'
 		},
