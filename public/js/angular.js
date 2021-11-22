@@ -470,8 +470,8 @@ app.controller('resumeCtrl', function($scope, $document) {
 		// },
     {
 			title: 'BMT Micro, Inc. Email',
-			image: './images/bmt_email_screenshot-400.jpg',
-			url: 'https://jeffberlin.github.io/bmt-email/original.html',
+			image: './images/bmt-micro-email-template-screenshot-400.jpg',
+			url: './images/bmt-micro-email-template-screenshot.jpg',
 			category: ['development', 'design'],
 		// next lines are to handle the pop-up modals
 			modalName: 'BmtEmailModalCenter',
@@ -484,7 +484,7 @@ app.controller('resumeCtrl', function($scope, $document) {
 		// body inside the modal
 			modalBody: 'This project is an HTMl email template that is used for BMT Micro\'s automated email responses. The template was designed using Adobe XD.',
 		// handles the link description in modal
-			modalViewType: 'in Browser'
+			modalViewType: 'Image'
 		},
     {
 			title: 'MyReads React',
