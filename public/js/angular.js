@@ -199,8 +199,8 @@ app.controller('resumeCtrl', function($scope, $document) {
       modalViewType: 'Flyer'
     },
     {
-			title: 'JBR',
-			image: './images/jbrally_screenshot-400.jpg',
+			title: 'Jeff Berlin Racing',
+			image: './images/jeff-berlin-racing-screenshot-400.jpg',
 			url: 'https://www.jeffberlinracing.com/',
 			category: ['development', 'design'],
 		// next lines are to handle the pop-up modals
@@ -218,7 +218,7 @@ app.controller('resumeCtrl', function($scope, $document) {
 		},
     {
       title: 'Goth Industrial Night Flyer',
-      image: './images/goth_industrial_night_flyer-400.jpg',
+      image: './images/goth-industrial-night-flyer-400.jpg',
       url: '/goth-industrial-night-flyer',
       category: 'design',
     // next lines are to handle the pop-up modals
@@ -236,7 +236,7 @@ app.controller('resumeCtrl', function($scope, $document) {
     },
     {
       title: 'Back To The 80\'s Flyer',
-      image: './images/back_to_80s_flyer-400.jpg',
+      image: './images/back-to-80s-flyer-400.jpg',
       url: '/back-to-80s-flyer',
       category: 'design',
     // next lines are to handle the pop-up modals
@@ -290,7 +290,7 @@ app.controller('resumeCtrl', function($scope, $document) {
     },
     {
       title: 'BMT Micro Blog',
-      image: './images/bmt_micro_blog_screenshot-400.jpg',
+      image: './images/bmt-micro-blog-screenshot-400.jpg',
       url: 'https://blog.bmtmicro.com',
       category: ['development', 'design'],
     // next lines are to handle the pop-up modals
@@ -380,7 +380,7 @@ app.controller('resumeCtrl', function($scope, $document) {
     },
     {
       title: 'BMT Micro Catalog',
-      image: './images/bmt_catalog_screenshot-400.jpg',
+      image: './images/bmt-micro-catalog-screenshot-400.jpg',
       url: 'https://www.bmtmicro.com/bmtcatalog',
       category: ['development', 'design'],
     // next lines are to handle the pop-up modals
@@ -392,13 +392,13 @@ app.controller('resumeCtrl', function($scope, $document) {
 		// title to display in the modal
 			modalTitleName: 'BMT Micro Product Catalog',
 		// body inside the modal
-			modalBody: 'Part of my job with BMT Micro, Inc. is to redesign and recreate old webpages. This website is a redesigned product catalog that also displays company information. This site was recreated using HTML, CSS, Bootstrap, JavaScript, JQuery, and AngularJS.',
+			modalBody: 'BMT Micro loves to promote its software suppliers, so I recreated their online catalog to bring it more up-to-date. This redesigned product catalog website was recreated using HTML, CSS, Bootstrap, JavaScript, JQuery, and AngularJS.',
 		// handles the link description in modal
 			modalViewType: 'Website'
     },
     {
 			title: 'BMT Micro Customer Help',
-			image: './images/bmt_customer_help_screenshot-400.jpg',
+			image: './images/bmt-micro-help-customers-screenshot-400.jpg',
 			url: 'https://help.bmtmicro.com/customers',
 			category: ['development', 'design'],
 		// next lines are to handle the pop-up modals
@@ -410,13 +410,13 @@ app.controller('resumeCtrl', function($scope, $document) {
 		// title to display in the modal
 			modalTitleName: 'BMT Micro Customer Help Page',
 		// body inside the modal
-			modalBody: 'Part of my job with BMT Micro, Inc. is to redesign and recreate old webpages. This website is a redesigned FAQ/Help section for customers that was recreated in Wordpress.',
+			modalBody: 'Part of my job with BMT Micro, Inc. is to redesign and recreate old webpages to improve performance and UI/UX. This website is a redesigned FAQ/Help section for customers that was recreated in Wordpress, using HTML, CSS, JavaScript, and PHP.',
 		// handles the link description in modal
 			modalViewType: 'Website'
 		},
     {
 			title: 'BMT Micro Vendor Help',
-			image: './images/bmt_help_screenshot-400.jpg',
+			image: './images/bmt-micro-help-vendors-screenshot-400.jpg',
 			url: 'https://help.bmtmicro.com/vendors',
 			category: ['development', 'design'],
 		// next lines are to handle the pop-up modals
@@ -428,7 +428,7 @@ app.controller('resumeCtrl', function($scope, $document) {
 		// title to display in the modal
 			modalTitleName: 'BMT Micro Vendor Help Page',
 		// body inside the modal
-			modalBody: 'Part of my job with BMT Micro, Inc. is to redesign and recreate old webpages. This website is a redesigned FAQ/Help section that was recreated in Wordpress.',
+			modalBody: 'Since starting at BMT Micro, Inc., I have taken old and outdated webpages and designs, and gave them a much needed face-lift. This particular website is a redesigned FAQ/Help section that was recreated in Wordpress, using HTML, CSS, JavaScript, and PHP.',
 		// handles the link description in modal
 			modalViewType: 'Website'
 		},
