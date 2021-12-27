@@ -33,7 +33,7 @@ app.controller('resumeCtrl', function($scope, $document) {
       company: 'BMT Micro, Inc.',
       companyURL: 'https://www.bmtmicro.com/',
       workLocation: 'Wilmington, NC',
-      jobDescription: 'BMT Micro is an ecommerce company for software and game developers and handle their shopping carts and payment transactions. I am in charge of building and maintaining their WordPress plugin, coding automated email response templates, redesign/redevelop company web sites, and maintaining all company websites.'
+      jobDescription: 'BMT Micro is an e-commerce company for software and game developers. We handle their shopping carts, payment transactions, sales tracking, and order fulfillment. My responsibilities include building, redesigning, and maintaining all company websites, our automated email template, our Wordpress plugin, and custom shopping carts. Since completion of the new company homepage, we have seen traffic triple!'
     },
 		{
 			jobTitle: 'UI/UX Developer (Contractor)',
